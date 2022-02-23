@@ -7,16 +7,33 @@ namespace SupportBank
         {
             Transactions = transactions;
         }
-        public List<string> BuildAccountHolders()
+        public List<string> BuildAccountHolders(List<Transaction> bank)
         {
-            for (int i = 0; i <= List.count; i++) {
-           foreach(Person person in Person)
+            List<AccountHolders> holders = new List<AccountHolders>();
+            //Loop through all Transaction objects
+            for (int i = 0; i <= bank.Count(); i++) 
             {
-                if (name not in list) {
-                    person.add(name);
+                if (holders.Any(holder => holder.Names == bank[i].FromPerson))
+                {
+                    holders.Total += bank[i].Amount;
+                } else 
+                {
+                    holders.Add(bank[i].FromPerson, bank[i].Amount);
                 }
-                Console.WriteLine($"{stockItem.ItemName.Name}: {stockItem.ItemName.Colour}: {stockItem.Amount}");
+                
+                
+                if (holders.Any(holder => holder.Names == bank[i].ToPerson))
+                {
+                    holders.Total -= bank[i].Amount;
+                }
+                else
+                {
+                    holders.Add(bank[i].ToPerson);
+                    holders.Total -= bank[i].Amount;
+                }
+                
             }
+            return holders;
         }
     }
 }
