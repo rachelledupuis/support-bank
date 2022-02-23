@@ -4,13 +4,13 @@ namespace SupportBank
 {
     public class Transaction
     {
-        public DateTime Date { get; set; }
+        public string Date { get; set; }
         public string FromPerson { get; set; }
         public string ToPerson { get; set; }
         public string Narrative { get; set; }
-        public double Amount { get; set; }
+        public string Amount { get; set; }
 
-        public Transaction(DateTime date, string fromPerson, string toPerson, string narrative, double amount)
+        public Transaction(string date, string fromPerson, string toPerson, string narrative, string amount)
         {
             Date = date;
             FromPerson = fromPerson;
