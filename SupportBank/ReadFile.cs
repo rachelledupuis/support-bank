@@ -16,11 +16,11 @@ namespace SupportBank
                     string? line;
                     // Read and display lines from the file until the end of
                     // the file is reached.
+                    string? headerLine = sr.ReadLine();
                     while ((line = sr.ReadLine()) != null)
                     {
                         var values = line.Split(',');
-                        Transaction singleLine = new Transaction(values[0], values[1], values[2], values[3], values[4]);
-                        Console.WriteLine(singleLine.Date);
+                        Transaction singleLine = new Transaction(DateTime.Parse(values[0]), values[1], values[2], values[3], Convert.ToDouble(values[4]));
                     }
                 }
             }
