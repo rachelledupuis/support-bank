@@ -7,7 +7,9 @@ namespace SupportBank
         static void Main(string[] args)
         {
             ReadFile test = new ReadFile();
-            test.Read();
+            // test.Read();
+            Bank supportBank = new Bank(test.Read());
+            Console.WriteLine(supportBank.Transactions[0].FromPerson);
         }
     }
 }
