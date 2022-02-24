@@ -5,7 +5,7 @@ namespace SupportBank
 {
     public class ReadFile
     {
-        public Bank Read()
+        public Bank Read(string filePath)
         {
             Bank bank = new Bank();
             List<Account> holders = new List<Account>();
@@ -14,7 +14,7 @@ namespace SupportBank
             {
                 // Create an instance of StreamReader to read from a file.
                 // The using statement also closes the StreamReader.
-                using (StreamReader sr = new StreamReader("./../Transactions2014.csv"))
+                using (StreamReader sr = new StreamReader(filePath))
                 {
                     
                     string? line;
