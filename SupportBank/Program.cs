@@ -23,7 +23,30 @@ namespace SupportBank
         
             ReadFile transactionsCsv = new ReadFile();
             Bank supportBank = transactionsCsv.Read(@"C:\Training\support-bank\support-bank\DodgyTransactions2015.csv");
-           supportBank.printAllTransactions();
+
+            try 
+            {
+                if (args[0].ToLower() != "list")
+                {
+                    return;
+                }
+                if (args[1].ToLower() == "all")
+                {
+                    
+                    return;
+                } else {
+                    if (args[2] != "")
+                    {    
+                        string name = args[1] + " " + args[2];
+                        supportBank.PrintAllTransactions(name);
+                    }
+                }
+            }
+            catch (IndexOutOfRangeException)
+                        {
+                            Logger.Error("No command entered. Please enter list all or list followed by a name");
+                            throw;
+                        }
         }
     }
 }

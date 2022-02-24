@@ -41,11 +41,34 @@ namespace SupportBank
         }
 
 
-        public void printAllTransactions()
+        public void PrintAllTransactions(string name)
         {
-            foreach(var transaction in Transactions)
+            try 
             {
-                Console.WriteLine($"{transaction.Date}: £{transaction.Amount} from {transaction.FromPerson.Name} to {transaction.ToPerson.Name} for {transaction.Narrative}");
+                foreach(var transaction in Transactions)
+                {
+                    Logger.Info($"input= {name}, Transaction FromName = {transaction.FromPerson.Name}, ToName = {transaction.ToPerson.Name}");
+                    if (!Transactions.Any(transaction => transaction.FromPerson.Name == name))
+                    {
+                        if (!Transactions.Any(transaction => transaction.ToPerson.Name == name))
+                        {
+                            throw new ArgumentOutOfRangeException("The given name does not match to any account");
+                        }
+                    }
+                    if (transaction.FromPerson.Name == name)
+                    {
+                        Console.WriteLine($"{transaction.Date.ToString("dd/MM/yyyy")}: £{transaction.Amount} owed to {transaction.ToPerson.Name} for {transaction.Narrative}");
+                    }
+                    if (transaction.ToPerson.Name == name)
+                    {
+                        Console.WriteLine($"{transaction.Date.ToString("dd/MM/yyyy")}: £{transaction.Amount} owed by {transaction.FromPerson.Name} for {transaction.Narrative}");
+                    }
+                }
+            }
+            catch (Exception)
+            {
+                Logger.Error($"input= {name}");
+                throw new ArgumentOutOfRangeException("The given name does not match to any account");
             }
         }
 
