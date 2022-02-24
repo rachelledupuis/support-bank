@@ -13,6 +13,7 @@ namespace SupportBank
             //Loop through all Transaction objects
             for (int i = 0; i <= bank.Count(); i++) 
             {
+                
                 if (holders.Any(holder => holder.Names == bank[i].FromPerson))
                 {
                     holders.Total += bank[i].Amount;
