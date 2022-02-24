@@ -3,11 +3,11 @@ using System.IO;
 
 namespace SupportBank
 {
-    class ReadFile
+    public class ReadFile
     {
-        public List<Transaction> Read()
+        public Bank Read()
         {
-            List<Transaction> bank = new List<Transaction>();
+            Bank bank = new Bank();
             
             try
             {
@@ -23,9 +23,13 @@ namespace SupportBank
                     while ((line = sr.ReadLine()) != null)
                     {
                         var values = line.Split(',');
-                        Transaction singleLine = new Transaction(DateTime.Parse(values[0]), values[1], values[2], values[3], Convert.ToDouble(values[4]));
-                        bank.Add(singleLine);
-                        
+                        bank.Transactions.Add(new Transaction(
+                            DateTime.Parse(values[0]), 
+                            values[1], 
+                            values[2], 
+                            values[3], 
+                            Convert.ToDecimal(values[4])
+                        ));   
                     }
                 }
             }

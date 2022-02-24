@@ -8,9 +8,9 @@ namespace SupportBank
         public string FromPerson { get; set; }
         public string ToPerson { get; set; }
         public string Narrative { get; set; }
-        public double Amount { get; set; }
+        public decimal Amount { get; set; }
 
-        public Transaction(DateTime date, string fromPerson, string toPerson, string narrative, double amount)
+        public Transaction(DateTime date, string fromPerson, string toPerson, string narrative, decimal amount)
         {
             Date = date;
             FromPerson = fromPerson;

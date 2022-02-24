@@ -3,11 +3,11 @@ namespace SupportBank
     public class Bank
     {
         public List<Transaction> Transactions  { get; set; }
-        public Bank (List<Transaction> transactions)
+        public Bank()
         {
-            Transactions = transactions;
+            Transactions = new List<Transaction>();
         }
-        public List<string> BuildAccountHolders()
+        /* public List<string> BuildAccountHolders()
         {
             for (int i = 0; i <= List.count; i++) {
            foreach(Person person in Person)
@@ -17,6 +17,6 @@ namespace SupportBank
                 }
                 Console.WriteLine($"{stockItem.ItemName.Name}: {stockItem.ItemName.Colour}: {stockItem.Amount}");
             }
-        }
-    }
+        } */
+    } 
 }
