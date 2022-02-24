@@ -30,7 +30,7 @@ namespace SupportBank
                 }
                 catch (Exception ex)
                 {
-                    Logger.Info(ex, "transaction: line 32");
+                    Logger.Error(ex, "transaction: line 32");
                 }
             return accounts;
             }

@@ -20,19 +20,9 @@ namespace SupportBank
                         
             // Apply config           
             NLog.LogManager.Configuration = config;
-        //     try
-        // {
-        //    Logger.Info("Hello world");
-        //    System.Console.ReadKey();
-        // }
-
-        // catch (Exception ex)
-        // {
-        //    Logger.Error(ex, "Goodbye cruel world");
-        // }
-
+        
             ReadFile transactionsCsv = new ReadFile();
-            Bank supportBank = transactionsCsv.Read(@"C:\Training\support-bank\support-bank\Transactions2014.csv");
+            Bank supportBank = transactionsCsv.Read(@"C:\Training\support-bank\support-bank\DodgyTransactions2015.csv");
            supportBank.printAllTransactions();
         }
     }

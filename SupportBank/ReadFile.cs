@@ -25,15 +25,16 @@ namespace SupportBank
                     string? headerLine = sr.ReadLine();
                     
                     Logger.Info("Hello world");
+                    int lineNo = 2;
                     while ((line = sr.ReadLine()) != null)
-                    
                     {
+                        
+                        Logger.Info($"Line no: {lineNo}: {line}");
                         var values = line.Split(',');
 
                         if (!holders.Any(holder => holder.Name == values[1]))
                         {
                             holders.Add(new Account(values[1]));
-                            Logger.Info("Account Added");
                         }
                         
                         if (!holders.Any(holder => holder.Name == values[2]))
@@ -44,13 +45,22 @@ namespace SupportBank
                         Account from = holders.Find(account => account.Name == values[1]);
                         Account to = holders.Find(account => account.Name == values[2]);
 
-                        bank.Transactions.Add(new Transaction(
+                        try {
+                            bank.Transactions.Add(new Transaction(
                             DateTime.Parse(values[0]), 
                             from, 
                             to, 
                             values[3], 
                             Convert.ToDecimal(values[4])
-                        ));   
+                            ));  
+                        }
+                        catch (FormatException)
+                        {
+                            Logger.Error($"Format Exception on Line: {line}");
+                        }
+                         
+                        
+                        lineNo++;
                     }
                 }
             }
