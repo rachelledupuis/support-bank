@@ -18,5 +18,13 @@ namespace SupportBank
                 Console.WriteLine($"{stockItem.ItemName.Name}: {stockItem.ItemName.Colour}: {stockItem.Amount}");
             }
         } */
+
+        public void printAllTransactions()
+        {
+            foreach(var transaction in Transactions)
+            {
+                Console.WriteLine($"{transaction.Date}: £{transaction.Amount} from {transaction.FromPerson} to {transaction.ToPerson} for {transaction.Narrative}");
+            }
+        }
     } 
 }

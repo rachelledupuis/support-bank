@@ -8,7 +8,7 @@ namespace SupportBank
         {
             ReadFile transactionsCsv = new ReadFile();
             Bank supportBank = transactionsCsv.Read();
-            Console.WriteLine(supportBank.Transactions[0].FromPerson);
+            supportBank.printAllTransactions();
         }
     }
 }
