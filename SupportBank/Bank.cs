@@ -1,28 +1,38 @@
+using NLog;
 namespace SupportBank
 {
     public class Bank
     {
+        private static readonly NLog.Logger Logger = NLog.LogManager.GetCurrentClassLogger();
         public List<Transaction> Transactions  { get; set; }
 
         public List<Account> Accounts {
             get
             {
+                
                 List<Account> accounts = new List<Account>();
-
-                foreach(var transaction in Transactions)
-                {
-                    if (!accounts.Any(account => account.Name == transaction.FromPerson.Name))
-                    {
-                        accounts.Add(transaction.FromPerson);
+                try
+                { 
+                    Logger.Info("Hello world");
+                    foreach(var transaction in Transactions)
+                    {    
+                        if (!accounts.Any(account => account.Name == transaction.FromPerson.Name))
+                            {
+                                accounts.Add(transaction.FromPerson);
+                            }
+                            
+                        if (!accounts.Any(account => account.Name == transaction.ToPerson.Name))
+                        {
+                            accounts.Add(transaction.ToPerson);
+                        }
                     }
-
-                    if (!accounts.Any(account => account.Name == transaction.ToPerson.Name))
-                    {
-                        accounts.Add(transaction.ToPerson);
-                    }
+                 
                 }
-
-                return accounts;
+                catch (Exception ex)
+                {
+                    Logger.Info(ex, "transaction: line 32");
+                }
+            return accounts;
             }
         }
         public Bank()
@@ -39,7 +49,7 @@ namespace SupportBank
             }
         }
 
-         public decimal GetAccountBalance(string name)
+        public decimal GetAccountBalance(string name)
         {
             if (!Accounts.Any(account => account.Name == name))
             {

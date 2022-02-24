@@ -25,12 +25,12 @@ namespace SupportBank
                     {
                         var values = line.Split(',');
 
-                        if (holders.Any(holder => holder.Name == values[1]))
+                        if (!holders.Any(holder => holder.Name == values[1]))
                         {
                             holders.Add(new Account(values[1]));
                         }
                         
-                        if (holders.Any(holder => holder.Name == values[2]))
+                        if (!holders.Any(holder => holder.Name == values[2]))
                         {
                             holders.Add(new Account(values[2]));
                         }

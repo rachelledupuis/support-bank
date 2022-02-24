@@ -30,7 +30,11 @@ namespace SupportBank
         //         Console.WriteLine($"{stockItem.ItemName.Name}: {stockItem.ItemName.Colour}: {stockItem.Amount}");
         //     } 
         }
+        public override string ToString()
+        {
+            return $"{Date}: £{Amount} from {FromPerson.Name} to {ToPerson.Name} for {Narrative}";
         }
+    }
     
 }
 
