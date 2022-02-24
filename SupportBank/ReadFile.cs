@@ -8,6 +8,7 @@ namespace SupportBank
         public Bank Read()
         {
             Bank bank = new Bank();
+            List<Account> holders = new List<Account>();
             
             try
             {
@@ -23,10 +24,24 @@ namespace SupportBank
                     while ((line = sr.ReadLine()) != null)
                     {
                         var values = line.Split(',');
+
+                        if (holders.Any(holder => holder.Name == values[1]))
+                        {
+                            holders.Add(new Account(values[1]));
+                        }
+                        
+                        if (holders.Any(holder => holder.Name == values[2]))
+                        {
+                            holders.Add(new Account(values[2]));
+                        }
+
+                        Account from = holders.Find(account => account.Name == values[1]);
+                        Account to = holders.Find(account => account.Name == values[2]);
+
                         bank.Transactions.Add(new Transaction(
                             DateTime.Parse(values[0]), 
-                            values[1], 
-                            values[2], 
+                            from, 
+                            to, 
                             values[3], 
                             Convert.ToDecimal(values[4])
                         ));   

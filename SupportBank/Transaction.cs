@@ -5,12 +5,12 @@ namespace SupportBank
     public class Transaction
     {
         public DateTime Date { get; set; }
-        public string FromPerson { get; set; }
-        public string ToPerson { get; set; }
+        public Account FromPerson { get; set; }
+        public Account ToPerson { get; set; }
         public string Narrative { get; set; }
         public decimal Amount { get; set; }
 
-        public Transaction(DateTime date, string fromPerson, string toPerson, string narrative, decimal amount)
+        public Transaction(DateTime date, Account fromPerson, Account toPerson, string narrative, decimal amount)
         {
             Date = date;
             FromPerson = fromPerson;
