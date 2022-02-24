@@ -11,7 +11,7 @@ namespace SupportBank
             var config = new NLog.Config.LoggingConfiguration();
 
             // Targets where to log to: File and Console
-            var logfile = new NLog.Targets.FileTarget("logfile") { FileName = @"C:\Training\support-bank\support-bank\SupportBank\log.log" };
+            var logfile = new NLog.Targets.FileTarget("logfile") { FileName = @"C:\Training\support-bank\SupportBank\log.log" };
             var logconsole = new NLog.Targets.ConsoleTarget("logconsole");
                         
             // Rules for mapping loggers to targets            
@@ -22,7 +22,7 @@ namespace SupportBank
             NLog.LogManager.Configuration = config;
         
             ReadFile transactionsCsv = new ReadFile();
-            Bank supportBank = transactionsCsv.Read(@"C:\Training\support-bank\support-bank\DodgyTransactions2015.csv");
+            Bank supportBank = transactionsCsv.Read(@"C:\Training\support-bank\DodgyTransactions2015.csv");
 
             try 
             {
