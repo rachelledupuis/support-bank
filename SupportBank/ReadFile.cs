@@ -5,6 +5,8 @@ namespace SupportBank
 {
     public class ReadFile
     {
+        private static readonly NLog.Logger Logger = NLog.LogManager.GetCurrentClassLogger();
+
         public Bank Read(string filePath)
         {
             Bank bank = new Bank();
@@ -21,13 +23,17 @@ namespace SupportBank
                     // Read and display lines from the file until the end of
                     // the file is reached.
                     string? headerLine = sr.ReadLine();
+                    
+                    Logger.Info("Hello world");
                     while ((line = sr.ReadLine()) != null)
+                    
                     {
                         var values = line.Split(',');
 
                         if (!holders.Any(holder => holder.Name == values[1]))
                         {
                             holders.Add(new Account(values[1]));
+                            Logger.Info("Account Added");
                         }
                         
                         if (!holders.Any(holder => holder.Name == values[2]))
