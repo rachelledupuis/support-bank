@@ -13,7 +13,7 @@ namespace SupportBank
                 List<Account> accounts = new List<Account>();
                 try
                 { 
-                    Logger.Info("Hello world");
+                    //Logger.Info("Hello world");
                     foreach(var transaction in Transactions)
                     {    
                         if (!accounts.Any(account => account.Name == transaction.FromPerson.Name))
@@ -47,7 +47,7 @@ namespace SupportBank
             {
                 foreach(var transaction in Transactions)
                 {
-                    Logger.Info($"input= {name}, Transaction FromName = {transaction.FromPerson.Name}, ToName = {transaction.ToPerson.Name}");
+                    //Logger.Info($"input= {name}, Transaction FromName = {transaction.FromPerson.Name}, ToName = {transaction.ToPerson.Name}");
                     if (!Transactions.Any(transaction => transaction.FromPerson.Name == name))
                     {
                         if (!Transactions.Any(transaction => transaction.ToPerson.Name == name))
@@ -72,29 +72,26 @@ namespace SupportBank
             }
         }
 
-        public decimal GetAccountBalance(string name)
+        public void GetAccountBalance()
         {
-            if (!Accounts.Any(account => account.Name == name))
+            foreach (var account in Accounts)
             {
-                throw new ArgumentOutOfRangeException("The given name does not match to any account");
-            }
-
-            Account account = Accounts.Find(a => a.Name == name);
-            decimal result = 0;
-
-            foreach(var transaction in Transactions)
-            {
-                if (transaction.FromPerson.Name == account.Name)
+                var name = account.Name;
+                decimal result = 0;
+            
+                foreach(var transaction in Transactions)
                 {
-                    result -= transaction.Amount;
+                    if (transaction.FromPerson.Name == name)
+                    {
+                        result -= transaction.Amount;
+                    }
+                    if (transaction.ToPerson.Name == name)
+                    {
+                        result += transaction.Amount;
+                    }
                 }
-                if (transaction.ToPerson.Name == account.Name)
-                {
-                    result += transaction.Amount;
-                }
+                Console.WriteLine($"{name}: {result}");
             }
-
-            return result;
         }
     } 
 }

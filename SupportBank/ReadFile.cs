@@ -24,12 +24,12 @@ namespace SupportBank
                     // the file is reached.
                     string? headerLine = sr.ReadLine();
                     
-                    Logger.Info("Hello world");
+                    //Logger.Info("Hello world");
                     int lineNo = 2;
                     while ((line = sr.ReadLine()) != null)
                     {
                         
-                        Logger.Info($"Line no: {lineNo}: {line}");
+                        //Logger.Info($"Line no: {lineNo}: {line}");
                         var values = line.Split(',');
 
                         if (!holders.Any(holder => holder.Name == values[1]))

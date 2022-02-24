@@ -19,17 +19,6 @@ namespace SupportBank
             Amount = amount;
         }
 
-        public void GetPerson(string name)
-        {
-        //    for (int i = 0; i <= List.count; i++) {
-        //    foreach(Person person in Person)
-        //     {
-        //         if (name not in list) {
-        //             person.add(name);
-        //         }
-        //         Console.WriteLine($"{stockItem.ItemName.Name}: {stockItem.ItemName.Colour}: {stockItem.Amount}");
-        //     } 
-        }
         public override string ToString()
         {
             return $"{Date}: £{Amount} from {FromPerson.Name} to {ToPerson.Name} for {Narrative}";

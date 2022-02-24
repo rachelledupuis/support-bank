@@ -22,7 +22,7 @@ namespace SupportBank
             NLog.LogManager.Configuration = config;
         
             ReadFile transactionsCsv = new ReadFile();
-            Bank supportBank = transactionsCsv.Read(@"C:\Training\support-bank\DodgyTransactions2015.csv");
+            Bank supportBank = transactionsCsv.Read(@"C:\Training\support-bank\Transactions2014.csv");
 
             try 
             {
@@ -32,7 +32,7 @@ namespace SupportBank
                 }
                 if (args[1].ToLower() == "all")
                 {
-                    
+                    supportBank.GetAccountBalance();
                     return;
                 } else {
                     if (args[2] != "")
@@ -47,6 +47,7 @@ namespace SupportBank
                             Logger.Error("No command entered. Please enter list all or list followed by a name");
                             throw;
                         }
+            
         }
     }
 }

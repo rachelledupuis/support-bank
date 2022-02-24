@@ -897,3 +897,364 @@
 2022-02-24 19:11:45.6617|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Tim L, ToName = Sarah T
 2022-02-24 19:11:45.6617|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Jon A, ToName = Todd
 2022-02-24 19:11:45.6617|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Ben B, ToName = Jon A
+2022-02-24 19:16:22.8379|INFO|SupportBank.ReadFile|Hello world
+2022-02-24 19:16:22.8788|INFO|SupportBank.ReadFile|Line no: 2: 01/01/2015,Laura B,Sarah T,Misc Morale,10.54
+2022-02-24 19:16:22.8957|INFO|SupportBank.ReadFile|Line no: 3: 04/01/2015,Stephen S,Gergana I,Lunch,3.22
+2022-02-24 19:16:22.8979|INFO|SupportBank.ReadFile|Line no: 4: 07/01/2015,Ben B,Jon A,Fantasy Football,9.93
+2022-02-24 19:16:22.8979|INFO|SupportBank.ReadFile|Line no: 5: 11/01/2015,Ben B,Todd,Lunch,7.33
+2022-02-24 19:16:22.8979|INFO|SupportBank.ReadFile|Line no: 6: 12/01/2015,Laura B,Ben B,Beers,8.94
+2022-02-24 19:16:22.8979|INFO|SupportBank.ReadFile|Line no: 7: 15/01/2015,Todd,Rob S,Beers,10.19
+2022-02-24 19:16:22.8979|INFO|SupportBank.ReadFile|Line no: 8: 16/01/2015,Laura B,Jon A,Lego Assistance,0.69
+2022-02-24 19:16:22.8979|INFO|SupportBank.ReadFile|Line no: 9: 18/01/2015,Jon A,Sarah T,Coffee,10.73
+2022-02-24 19:16:22.8979|INFO|SupportBank.ReadFile|Line no: 10: 22/01/2015,Gergana I,Todd,Coffee,0.8
+2022-02-24 19:16:22.8979|INFO|SupportBank.ReadFile|Line no: 11: 24/01/2015,Gergana I,Chris W,Coffee,8.49
+2022-02-24 19:16:22.8979|INFO|SupportBank.ReadFile|Line no: 12: 27/01/2015,Laura B,Tim L,Jenkins Fees,0.52
+2022-02-24 19:16:22.8979|INFO|SupportBank.ReadFile|Line no: 13: 29/01/2015,Sam N,Chris W,Lunch,9.01
+2022-02-24 19:16:22.8979|INFO|SupportBank.ReadFile|Line no: 14: 01/02/2015,Stephen S,Laura B,Coffee,7.53
+2022-02-24 19:16:22.8979|INFO|SupportBank.ReadFile|Line no: 15: 02/02/2015,Stephen S,Rob S,Fantasy Football,7.43
+2022-02-24 19:16:22.8979|INFO|SupportBank.ReadFile|Line no: 16: 04/02/2015,Rob S,Stephen S,Fantasy Football,5.78
+2022-02-24 19:16:22.8979|INFO|SupportBank.ReadFile|Line no: 17: 06/02/2015,Dan W,Gergana I,Automated Testing Services,10.29
+2022-02-24 19:16:22.8979|INFO|SupportBank.ReadFile|Line no: 18: 07/02/2015,Jon A,Chris W,Rails Consultancy,7.37
+2022-02-24 19:16:22.8979|INFO|SupportBank.ReadFile|Line no: 19: 10/02/2015,Sam N,Gergana I,Sandbox Help,9.84
+2022-02-24 19:16:22.9126|INFO|SupportBank.ReadFile|Line no: 20: 11/02/2015,Chris W,Stephen S,Misc Morale,0.68
+2022-02-24 19:16:22.9126|INFO|SupportBank.ReadFile|Line no: 21: 13/02/2015,Laura B,Gergana I,Beers,6.56
+2022-02-24 19:16:22.9126|INFO|SupportBank.ReadFile|Line no: 22: 16/02/2015,Chris W,Dan W,Jenkins Fees,1.28
+2022-02-24 19:16:22.9126|INFO|SupportBank.ReadFile|Line no: 23: 17/02/2015,Sarah T,Dan W,Sandbox Help,11.48
+2022-02-24 19:16:22.9126|INFO|SupportBank.ReadFile|Line no: 24: 18/02/2015,Stephen S,Rob S,Lego Assistance,4.83
+2022-02-24 19:16:22.9126|INFO|SupportBank.ReadFile|Line no: 25: 21/02/2015,Dan W,Ben B,Pokemon Training,0.5
+2022-02-24 19:16:22.9126|INFO|SupportBank.ReadFile|Line no: 26: 24/02/2015,Todd,Gergana I,Coffee,9.08
+2022-02-24 19:16:22.9126|INFO|SupportBank.ReadFile|Line no: 27: 26/02/2015,Stephen S,Jon A,Pokemon Training,4.23
+2022-02-24 19:16:22.9126|INFO|SupportBank.ReadFile|Line no: 28: 01/03/2015,Ben B,Sam N,Lunch,One Cheeseburger
+2022-02-24 19:16:22.9126|ERROR|SupportBank.ReadFile|Format Exception on Line: 01/03/2015,Ben B,Sam N,Lunch,One Cheeseburger
+2022-02-24 19:16:22.9126|INFO|SupportBank.ReadFile|Line no: 29: 02/03/2015,Todd,Chris W,Sandbox Help,1.92
+2022-02-24 19:16:22.9287|INFO|SupportBank.ReadFile|Line no: 30: 04/03/2015,Laura B,Jon A,Sandcastle Help,9.09
+2022-02-24 19:16:22.9287|INFO|SupportBank.ReadFile|Line no: 31: 06/03/2015,Stephen S,Gergana I,Lego Assistance,9.4
+2022-02-24 19:16:22.9287|INFO|SupportBank.ReadFile|Line no: 32: 08/03/2015,Ben B,Sam N,Pokemon Training,11.32
+2022-02-24 19:16:22.9287|INFO|SupportBank.ReadFile|Line no: 33: 11/03/2015,Stephen S,Jon A,Sandcastle Help,11.57
+2022-02-24 19:16:22.9287|INFO|SupportBank.ReadFile|Line no: 34: 15/03/2015,Todd,Sam N,Pokemon Training,2.29
+2022-02-24 19:16:22.9287|INFO|SupportBank.ReadFile|Line no: 35: 19/03/2015,Laura B,Chris W,Coffee,9.96
+2022-02-24 19:16:22.9287|INFO|SupportBank.ReadFile|Line no: 36: 21/03/2015,Jon A,Gergana I,Beers,7.54
+2022-02-24 19:16:22.9287|INFO|SupportBank.ReadFile|Line no: 37: 25/03/2015,Gergana I,Ben B,Automated Testing Services,2.39
+2022-02-24 19:16:22.9287|INFO|SupportBank.ReadFile|Line no: 38: 28/03/2015,Stephen S,Tim L,Lunch,5.83
+2022-02-24 19:16:22.9287|INFO|SupportBank.ReadFile|Line no: 39: 29/03/2015,Gergana I,Ben B,Audit and Other Financial Services,10.85
+2022-02-24 19:16:22.9287|INFO|SupportBank.ReadFile|Line no: 40: 30/03/2015,Tim L,Todd,Pokemon Training,8.6
+2022-02-24 19:16:22.9287|INFO|SupportBank.ReadFile|Line no: 41: 02/04/2015,Stephen S,Chris W,Pokemon Training,1.11
+2022-02-24 19:16:22.9287|INFO|SupportBank.ReadFile|Line no: 42: 05/04/2015,Chris W,Ben B,Lunch,0.96
+2022-02-24 19:16:22.9287|INFO|SupportBank.ReadFile|Line no: 43: 09/04/2015,Chris W,Rob S,Audit and Other Financial Services,11.79
+2022-02-24 19:16:22.9287|INFO|SupportBank.ReadFile|Line no: 44: 12/04/2015,Gergana I,Laura B,Stationary Items,8.37
+2022-02-24 19:16:22.9287|INFO|SupportBank.ReadFile|Line no: 45: 13/04/2015,Laura B,Tim L,Services Rendered,1.27
+2022-02-24 19:16:22.9287|INFO|SupportBank.ReadFile|Line no: 46: 15/04/2015,Ben B,Sam N,Lego Assistance,8.5
+2022-02-24 19:16:22.9287|INFO|SupportBank.ReadFile|Line no: 47: 19/04/2015,Stephen S,Chris W,White Water Rafting,8.91
+2022-02-24 19:16:22.9287|INFO|SupportBank.ReadFile|Line no: 48: 23/04/2015,Tim L,Todd,Misc Morale,8.1
+2022-02-24 19:16:22.9442|INFO|SupportBank.ReadFile|Line no: 49: 24/04/2015,Tim L,Sarah T,Arcade Social,6.38
+2022-02-24 19:16:22.9442|INFO|SupportBank.ReadFile|Line no: 50: 26/04/2015,Jon A,Todd,Stationary Items,8.44
+2022-02-24 19:16:22.9442|INFO|SupportBank.ReadFile|Line no: 51: 27/04/2015,Ben B,Jon A,Pokemon Training,10.91
+2022-02-24 19:16:22.9442|INFO|SupportBank.ReadFile|Line no: 52: Last Thursday,Sarah T,Dan W,Beers,5.42
+2022-02-24 19:16:22.9442|ERROR|SupportBank.ReadFile|Format Exception on Line: Last Thursday,Sarah T,Dan W,Beers,5.42
+2022-02-24 19:16:55.4249|INFO|SupportBank.ReadFile|Hello world
+2022-02-24 19:16:55.4638|INFO|SupportBank.ReadFile|Line no: 2: 01/01/2014,Jon A,Sarah T,Pokemon Training,7.8
+2022-02-24 19:16:55.4787|INFO|SupportBank.ReadFile|Line no: 3: 04/01/2014,Stephen S,Tim L,Lunch,4.37
+2022-02-24 19:16:55.4787|INFO|SupportBank.ReadFile|Line no: 4: 08/01/2014,Laura B,Stephen S,Lunch,5.09
+2022-02-24 19:16:55.4787|INFO|SupportBank.ReadFile|Line no: 5: 11/01/2014,Rob S,Ben B,Misc Morale,7.8
+2022-02-24 19:16:55.4787|INFO|SupportBank.ReadFile|Line no: 6: 14/01/2014,Stephen S,Ben B,Beers,7.36
+2022-02-24 19:16:55.4787|INFO|SupportBank.ReadFile|Line no: 7: 15/01/2014,Sam N,Stephen S,Spline Reticulation,11.63
+2022-02-24 19:16:55.4787|INFO|SupportBank.ReadFile|Line no: 8: 19/01/2014,Stephen S,Gergana I,Beers,5.88
+2022-02-24 19:16:55.4787|INFO|SupportBank.ReadFile|Line no: 9: 20/01/2014,Sam N,Stephen S,Beers,8.2
+2022-02-24 19:16:55.4787|INFO|SupportBank.ReadFile|Line no: 10: 24/01/2014,Laura B,Sam N,Coffee,11.68
+2022-02-24 19:16:55.4787|INFO|SupportBank.ReadFile|Line no: 11: 28/01/2014,Todd,Ben B,Coffee,6.81
+2022-02-24 19:16:55.4787|INFO|SupportBank.ReadFile|Line no: 12: 31/01/2014,Sam N,Gergana I,Services Rendered,6.29
+2022-02-24 19:16:55.4787|INFO|SupportBank.ReadFile|Line no: 13: 01/02/2014,Todd,Ben B,Snooker Night,6.87
+2022-02-24 19:16:55.4787|INFO|SupportBank.ReadFile|Line no: 14: 04/02/2014,Chris W,Ben B,Spline Reticulation,6.03
+2022-02-24 19:16:55.4787|INFO|SupportBank.ReadFile|Line no: 15: 05/02/2014,Todd,Rob S,Sandbox Help,5.62
+2022-02-24 19:16:55.4787|INFO|SupportBank.ReadFile|Line no: 16: 07/02/2014,Jon A,Sam N,Beers,1.65
+2022-02-24 19:16:55.4924|INFO|SupportBank.ReadFile|Line no: 17: 10/02/2014,Dan W,Sam N,Lunch,0.93
+2022-02-24 19:16:55.4924|INFO|SupportBank.ReadFile|Line no: 18: 14/02/2014,Laura B,Stephen S,Snooker Night,10.78
+2022-02-24 19:16:55.4924|INFO|SupportBank.ReadFile|Line no: 19: 15/02/2014,Stephen S,Gergana I,Rails Consultancy,6.91
+2022-02-24 19:16:55.4924|INFO|SupportBank.ReadFile|Line no: 20: 18/02/2014,Sarah T,Sam N,Spline Reticulation,1.6
+2022-02-24 19:16:55.4924|INFO|SupportBank.ReadFile|Line no: 21: 22/02/2014,Tim L,Sam N,Pokemon Training,5.2
+2022-02-24 19:16:55.4924|INFO|SupportBank.ReadFile|Line no: 22: 25/02/2014,Todd,Rob S,Automated Testing Services,7.1
+2022-02-24 19:16:55.4924|INFO|SupportBank.ReadFile|Line no: 23: 27/02/2014,Ben B,Rob S,Snooker Night,8.41
+2022-02-24 19:16:55.4924|INFO|SupportBank.ReadFile|Line no: 24: 01/03/2014,Stephen S,Jon A,Coffee,8.75
+2022-02-24 19:16:55.4924|INFO|SupportBank.ReadFile|Line no: 25: 03/03/2014,Sam N,Gergana I,Lunch,8.76
+2022-02-24 19:16:55.4924|INFO|SupportBank.ReadFile|Line no: 26: 07/03/2014,Todd,Laura B,Pokemon Training,9.39
+2022-02-24 19:16:55.4924|INFO|SupportBank.ReadFile|Line no: 27: 10/03/2014,Todd,Gergana I,Sandbox Help,1.62
+2022-02-24 19:16:55.4924|INFO|SupportBank.ReadFile|Line no: 28: 14/03/2014,Sarah T,Ben B,Spline Reticulation,2.1
+2022-02-24 19:16:55.4924|INFO|SupportBank.ReadFile|Line no: 29: 17/03/2014,Sarah T,Stephen S,Beers,0.66
+2022-02-24 19:16:55.4924|INFO|SupportBank.ReadFile|Line no: 30: 20/03/2014,Tim L,Sarah T,Lego Assistance,2.28
+2022-02-24 19:16:55.5064|INFO|SupportBank.ReadFile|Line no: 31: 22/03/2014,Rob S,Tim L,Misc Morale,1.95
+2022-02-24 19:16:55.5064|INFO|SupportBank.ReadFile|Line no: 32: 23/03/2014,Jon A,Sam N,Lunch,8.49
+2022-02-24 19:16:55.5064|INFO|SupportBank.ReadFile|Line no: 33: 27/03/2014,Ben B,Sam N,Misc Morale,10.76
+2022-02-24 19:16:55.5064|INFO|SupportBank.ReadFile|Line no: 34: 29/03/2014,Todd,Sarah T,Git-Fu Rendered,5.01
+2022-02-24 19:16:55.5064|INFO|SupportBank.ReadFile|Line no: 35: 30/03/2014,Dan W,Laura B,Lunch,4.77
+2022-02-24 19:16:55.5064|INFO|SupportBank.ReadFile|Line no: 36: 01/04/2014,Sam N,Laura B,Lunch,2.87
+2022-02-24 19:16:55.5064|INFO|SupportBank.ReadFile|Line no: 37: 04/04/2014,Todd,Ben B,Rails Consultancy,10.85
+2022-02-24 19:16:55.5064|INFO|SupportBank.ReadFile|Line no: 38: 06/04/2014,Jon A,Stephen S,Beers,8.91
+2022-02-24 19:16:55.5064|INFO|SupportBank.ReadFile|Line no: 39: 08/04/2014,Stephen S,Sam N,Lego Assistance,2.96
+2022-02-24 19:16:55.5064|INFO|SupportBank.ReadFile|Line no: 40: 09/04/2014,Ben B,Rob S,Coffee,1.31
+2022-02-24 19:16:55.5064|INFO|SupportBank.ReadFile|Line no: 41: 10/04/2014,Todd,Sarah T,Snooker Night,3.55
+2022-02-24 19:16:55.5064|INFO|SupportBank.ReadFile|Line no: 42: 11/04/2014,Todd,Laura B,Coffee,3.72
+2022-02-24 19:16:55.5064|INFO|SupportBank.ReadFile|Line no: 43: 15/04/2014,Rob S,Sam N,Snooker Night,8.86
+2022-02-24 19:16:55.5064|INFO|SupportBank.ReadFile|Line no: 44: 19/04/2014,Ben B,Gergana I,Lunch,7.61
+2022-02-24 19:16:55.5064|INFO|SupportBank.ReadFile|Line no: 45: 20/04/2014,Dan W,Gergana I,Beers,11.92
+2022-02-24 19:16:55.5064|INFO|SupportBank.ReadFile|Line no: 46: 23/04/2014,Stephen S,Rob S,Poker Winnings,3.41
+2022-02-24 19:16:55.5064|INFO|SupportBank.ReadFile|Line no: 47: 24/04/2014,Tim L,Dan W,Misc Morale,6.38
+2022-02-24 19:16:55.5064|INFO|SupportBank.ReadFile|Line no: 48: 26/04/2014,Todd,Tim L,Lunch,1.46
+2022-02-24 19:16:55.5229|INFO|SupportBank.ReadFile|Line no: 49: 30/04/2014,Laura B,Ben B,Golf Bets,5.77
+2022-02-24 19:16:55.5229|INFO|SupportBank.ReadFile|Line no: 50: 03/05/2014,Jon A,Gergana I,Rails Consultancy,10.51
+2022-02-24 19:16:55.5229|INFO|SupportBank.ReadFile|Line no: 51: 05/05/2014,Dan W,Sarah T,Stationary Items,5.06
+2022-02-24 19:16:55.5229|INFO|SupportBank.ReadFile|Line no: 52: 06/05/2014,Tim L,Chris W,Audit and Other Financial Services,7.45
+2022-02-24 19:16:55.5229|INFO|SupportBank.ReadFile|Line no: 53: 10/05/2014,Laura B,Todd,Lego Assistance,10.63
+2022-02-24 19:16:55.5229|INFO|SupportBank.ReadFile|Line no: 54: 13/05/2014,Tim L,Ben B,Coffee,5.89
+2022-02-24 19:16:55.5229|INFO|SupportBank.ReadFile|Line no: 55: 17/05/2014,Rob S,Sarah T,Misc Morale,3.61
+2022-02-24 19:16:55.5229|INFO|SupportBank.ReadFile|Line no: 56: 19/05/2014,Jon A,Todd,Beers,9.04
+2022-02-24 19:16:55.5229|INFO|SupportBank.ReadFile|Line no: 57: 22/05/2014,Tim L,Todd,Coffee,3.81
+2022-02-24 19:16:55.5229|INFO|SupportBank.ReadFile|Line no: 58: 24/05/2014,Sam N,Tim L,Sandcastle Help,8.8
+2022-02-24 19:16:55.5229|INFO|SupportBank.ReadFile|Line no: 59: 26/05/2014,Ben B,Laura B,Lunch,7.36
+2022-02-24 19:16:55.5229|INFO|SupportBank.ReadFile|Line no: 60: 30/05/2014,Laura B,Todd,Lunch,7.01
+2022-02-24 19:16:55.5229|INFO|SupportBank.ReadFile|Line no: 61: 31/05/2014,Tim L,Ben B,Coffee,8.23
+2022-02-24 19:16:55.5229|INFO|SupportBank.ReadFile|Line no: 62: 01/06/2014,Tim L,Stephen S,Rails Consultancy,5.2
+2022-02-24 19:16:55.5229|INFO|SupportBank.ReadFile|Line no: 63: 05/06/2014,Dan W,Gergana I,Spline Reticulation,5.61
+2022-02-24 19:16:55.5229|INFO|SupportBank.ReadFile|Line no: 64: 09/06/2014,Sarah T,Stephen S,Lego Assistance,11.5
+2022-02-24 19:16:55.5387|INFO|SupportBank.ReadFile|Line no: 65: 11/06/2014,Stephen S,Sam N,Lego Assistance,5.14
+2022-02-24 19:16:55.5387|INFO|SupportBank.ReadFile|Line no: 66: 14/06/2014,Todd,Sam N,Lego Assistance,6.3
+2022-02-24 19:16:55.5387|INFO|SupportBank.ReadFile|Line no: 67: 16/06/2014,Stephen S,Dan W,Lunch,4.79
+2022-02-24 19:16:55.5387|INFO|SupportBank.ReadFile|Line no: 68: 20/06/2014,Ben B,Chris W,Rails Consultancy,1.34
+2022-02-24 19:16:55.5387|INFO|SupportBank.ReadFile|Line no: 69: 22/06/2014,Tim L,Stephen S,Coffee,6.44
+2022-02-24 19:16:55.5387|INFO|SupportBank.ReadFile|Line no: 70: 23/06/2014,Stephen S,Ben B,Spline Reticulation,11.85
+2022-02-24 19:16:55.5387|INFO|SupportBank.ReadFile|Line no: 71: 26/06/2014,Chris W,Todd,Beers,9.81
+2022-02-24 19:16:55.5387|INFO|SupportBank.ReadFile|Line no: 72: 28/06/2014,Sarah T,Gergana I,Beers,4.03
+2022-02-24 19:16:55.5387|INFO|SupportBank.ReadFile|Line no: 73: 29/06/2014,Chris W,Laura B,Jenkins Fees,8.7
+2022-02-24 19:16:55.5387|INFO|SupportBank.ReadFile|Line no: 74: 01/07/2014,Rob S,Jon A,Lunch,2.67
+2022-02-24 19:16:55.5387|INFO|SupportBank.ReadFile|Line no: 75: 02/07/2014,Stephen S,Dan W,Lego Assistance,2.9
+2022-02-24 19:16:55.5387|INFO|SupportBank.ReadFile|Line no: 76: 06/07/2014,Sam N,Jon A,Beers,4.37
+2022-02-24 19:16:55.5387|INFO|SupportBank.ReadFile|Line no: 77: 09/07/2014,Dan W,Tim L,Misc Morale,5.45
+2022-02-24 19:16:55.5387|INFO|SupportBank.ReadFile|Line no: 78: 11/07/2014,Dan W,Sarah T,Misc Morale,5.05
+2022-02-24 19:16:55.5387|INFO|SupportBank.ReadFile|Line no: 79: 14/07/2014,Gergana I,Sam N,Coffee,10.92
+2022-02-24 19:16:55.5387|INFO|SupportBank.ReadFile|Line no: 80: 16/07/2014,Jon A,Dan W,Coffee,11.75
+2022-02-24 19:16:55.5543|INFO|SupportBank.ReadFile|Line no: 81: 18/07/2014,Gergana I,Stephen S,Snooker Night,11.57
+2022-02-24 19:16:55.5543|INFO|SupportBank.ReadFile|Line no: 82: 22/07/2014,Sarah T,Ben B,Coffee,11.56
+2022-02-24 19:16:55.5543|INFO|SupportBank.ReadFile|Line no: 83: 23/07/2014,Rob S,Tim L,Lego Assistance,11.47
+2022-02-24 19:16:55.5543|INFO|SupportBank.ReadFile|Line no: 84: 25/07/2014,Laura B,Stephen S,Poker Winnings,9.42
+2022-02-24 19:16:55.5543|INFO|SupportBank.ReadFile|Line no: 85: 28/07/2014,Gergana I,Chris W,Pokemon Training,2.33
+2022-02-24 19:16:55.5543|INFO|SupportBank.ReadFile|Line no: 86: 29/07/2014,Jon A,Sam N,Lunch,5.31
+2022-02-24 19:16:55.5543|INFO|SupportBank.ReadFile|Line no: 87: 01/08/2014,Sam N,Gergana I,Coffee,2.72
+2022-02-24 19:16:55.5543|INFO|SupportBank.ReadFile|Line no: 88: 03/08/2014,Laura B,Rob S,Rails Consultancy,6.26
+2022-02-24 19:16:55.5543|INFO|SupportBank.ReadFile|Line no: 89: 04/08/2014,Gergana I,Ben B,Coffee,7.81
+2022-02-24 19:16:55.5543|INFO|SupportBank.ReadFile|Line no: 90: 08/08/2014,Tim L,Laura B,Coffee,3.76
+2022-02-24 19:16:55.5543|INFO|SupportBank.ReadFile|Line no: 91: 11/08/2014,Stephen S,Rob S,Lunch,8.91
+2022-02-24 19:16:55.5543|INFO|SupportBank.ReadFile|Line no: 92: 13/08/2014,Sarah T,Todd,Beers,8.25
+2022-02-24 19:16:55.5543|INFO|SupportBank.ReadFile|Line no: 93: 14/08/2014,Chris W,Tim L,Misc Morale,6.59
+2022-02-24 19:16:55.5543|INFO|SupportBank.ReadFile|Line no: 94: 18/08/2014,Jon A,Tim L,Lego Assistance,7.22
+2022-02-24 19:16:55.5543|INFO|SupportBank.ReadFile|Line no: 95: 21/08/2014,Ben B,Gergana I,Rails Consultancy,9.25
+2022-02-24 19:16:55.5543|INFO|SupportBank.ReadFile|Line no: 96: 22/08/2014,Chris W,Sam N,Golf Bets,1.9
+2022-02-24 19:16:55.5543|INFO|SupportBank.ReadFile|Line no: 97: 23/08/2014,Ben B,Stephen S,Lunch,5.02
+2022-02-24 19:16:55.5698|INFO|SupportBank.ReadFile|Line no: 98: 24/08/2014,Laura B,Stephen S,Audit and Other Financial Services,7.45
+2022-02-24 19:16:55.5698|INFO|SupportBank.ReadFile|Line no: 99: 25/08/2014,Gergana I,Stephen S,Beers,8.57
+2022-02-24 19:16:55.5698|INFO|SupportBank.ReadFile|Line no: 100: 28/08/2014,Laura B,Tim L,Beers,0.57
+2022-02-24 19:16:55.5698|INFO|SupportBank.ReadFile|Line no: 101: 29/08/2014,Ben B,Chris W,Lunch,1.66
+2022-02-24 19:16:55.5698|INFO|SupportBank.ReadFile|Line no: 102: 01/09/2014,Sam N,Gergana I,Pokemon Training,9.41
+2022-02-24 19:16:55.5698|INFO|SupportBank.ReadFile|Line no: 103: 03/09/2014,Jon A,Tim L,Lunch,8.13
+2022-02-24 19:16:55.5698|INFO|SupportBank.ReadFile|Line no: 104: 06/09/2014,Dan W,Todd,Lunch,1.8
+2022-02-24 19:16:55.5698|INFO|SupportBank.ReadFile|Line no: 105: 09/09/2014,Todd,Dan W,Audit and Other Financial Services,3.93
+2022-02-24 19:16:55.5698|INFO|SupportBank.ReadFile|Line no: 106: 12/09/2014,Laura B,Jon A,Git-Fu Rendered,3.11
+2022-02-24 19:16:55.5698|INFO|SupportBank.ReadFile|Line no: 107: 16/09/2014,Gergana I,Rob S,Golf Bets,1.28
+2022-02-24 19:16:55.5698|INFO|SupportBank.ReadFile|Line no: 108: 20/09/2014,Jon A,Ben B,Beers,3.71
+2022-02-24 19:16:55.5698|INFO|SupportBank.ReadFile|Line no: 109: 24/09/2014,Jon A,Laura B,Golf Bets,5.61
+2022-02-24 19:16:55.5698|INFO|SupportBank.ReadFile|Line no: 110: 27/09/2014,Sarah T,Dan W,Beers,11.6
+2022-02-24 19:16:55.5698|INFO|SupportBank.ReadFile|Line no: 111: 29/09/2014,Ben B,Tim L,Misc Morale,3.43
+2022-02-24 19:16:55.5698|INFO|SupportBank.ReadFile|Line no: 112: 30/09/2014,Jon A,Dan W,Sandbox Help,9.26
+2022-02-24 19:16:55.5698|INFO|SupportBank.ReadFile|Line no: 113: 04/10/2014,Ben B,Todd,Lunch,11.28
+2022-02-24 19:16:55.5848|INFO|SupportBank.ReadFile|Line no: 114: 06/10/2014,Sarah T,Tim L,Spline Reticulation,7.44
+2022-02-24 19:16:55.5848|INFO|SupportBank.ReadFile|Line no: 115: 10/10/2014,Ben B,Gergana I,Beers,3.98
+2022-02-24 19:16:55.5848|INFO|SupportBank.ReadFile|Line no: 116: 14/10/2014,Ben B,Gergana I,Coffee,11.65
+2022-02-24 19:16:55.5848|INFO|SupportBank.ReadFile|Line no: 117: 18/10/2014,Gergana I,Rob S,Jenkins Fees,5.47
+2022-02-24 19:16:55.5848|INFO|SupportBank.ReadFile|Line no: 118: 19/10/2014,Dan W,Sam N,Automated Testing Services,8
+2022-02-24 19:16:55.5848|INFO|SupportBank.ReadFile|Line no: 119: 22/10/2014,Dan W,Sam N,Beers,0.55
+2022-02-24 19:16:55.5848|INFO|SupportBank.ReadFile|Line no: 120: 23/10/2014,Jon A,Dan W,Lunch,2.37
+2022-02-24 19:16:55.5848|INFO|SupportBank.ReadFile|Line no: 121: 25/10/2014,Laura B,Todd,Beers,8.42
+2022-02-24 19:16:55.5848|INFO|SupportBank.ReadFile|Line no: 122: 28/10/2014,Gergana I,Dan W,Misc Morale,5.04
+2022-02-24 19:16:55.5848|INFO|SupportBank.ReadFile|Line no: 123: 29/10/2014,Dan W,Ben B,Rails Consultancy,5.87
+2022-02-24 19:16:55.5848|INFO|SupportBank.ReadFile|Line no: 124: 30/10/2014,Chris W,Gergana I,Jenkins Fees,8.9
+2022-02-24 19:16:55.5848|INFO|SupportBank.ReadFile|Line no: 125: 02/11/2014,Sarah T,Tim L,Lego Assistance,4.67
+2022-02-24 19:16:55.5848|INFO|SupportBank.ReadFile|Line no: 126: 04/11/2014,Chris W,Rob S,Sandbox Help,6.15
+2022-02-24 19:16:55.5848|INFO|SupportBank.ReadFile|Line no: 127: 07/11/2014,Rob S,Ben B,Rails Consultancy,3
+2022-02-24 19:16:55.5848|INFO|SupportBank.ReadFile|Line no: 128: 09/11/2014,Sam N,Laura B,Beers,7.76
+2022-02-24 19:16:55.6007|INFO|SupportBank.ReadFile|Line no: 129: 11/11/2014,Jon A,Ben B,Stationary Items,0.73
+2022-02-24 19:16:55.6007|INFO|SupportBank.ReadFile|Line no: 130: 14/11/2014,Sam N,Dan W,Spline Reticulation,0.8
+2022-02-24 19:16:55.6007|INFO|SupportBank.ReadFile|Line no: 131: 18/11/2014,Sam N,Chris W,Golf Bets,6.44
+2022-02-24 19:16:55.6007|INFO|SupportBank.ReadFile|Line no: 132: 19/11/2014,Laura B,Jon A,Coffee,2.61
+2022-02-24 19:16:55.6007|INFO|SupportBank.ReadFile|Line no: 133: 21/11/2014,Chris W,Todd,Lego Assistance,1.42
+2022-02-24 19:16:55.6007|INFO|SupportBank.ReadFile|Line no: 134: 23/11/2014,Todd,Sarah T,Beers,2.24
+2022-02-24 19:16:55.6007|INFO|SupportBank.ReadFile|Line no: 135: 25/11/2014,Chris W,Rob S,Pokemon Training,5.76
+2022-02-24 19:16:55.6007|INFO|SupportBank.ReadFile|Line no: 136: 28/11/2014,Tim L,Dan W,Beers,8.76
+2022-02-24 19:16:55.6007|INFO|SupportBank.ReadFile|Line no: 137: 02/12/2014,Jon A,Sam N,Pokemon Training,11.04
+2022-02-24 19:16:55.6007|INFO|SupportBank.ReadFile|Line no: 138: 06/12/2014,Gergana I,Rob S,Lego Assistance,5.64
+2022-02-24 19:16:55.6007|INFO|SupportBank.ReadFile|Line no: 139: 09/12/2014,Jon A,Chris W,Pokemon Training,2.26
+2022-02-24 19:16:55.6007|INFO|SupportBank.ReadFile|Line no: 140: 12/12/2014,Dan W,Tim L,Coffee,4.5
+2022-02-24 19:16:55.6007|INFO|SupportBank.ReadFile|Line no: 141: 14/12/2014,Gergana I,Laura B,Lunch,4.26
+2022-02-24 19:16:55.6007|INFO|SupportBank.ReadFile|Line no: 142: 16/12/2014,Todd,Tim L,Poker Winnings,7.17
+2022-02-24 19:16:55.6007|INFO|SupportBank.ReadFile|Line no: 143: 18/12/2014,Chris W,Ben B,Coffee,11.17
+2022-02-24 19:16:55.6007|INFO|SupportBank.ReadFile|Line no: 144: 20/12/2014,Rob S,Gergana I,Lunch,1.07
+2022-02-24 19:16:55.6007|INFO|SupportBank.ReadFile|Line no: 145: 21/12/2014,Gergana I,Laura B,Pokemon Training,6.86
+2022-02-24 19:16:55.6007|INFO|SupportBank.ReadFile|Line no: 146: 22/12/2014,Dan W,Jon A,Lunch,3.66
+2022-02-24 19:16:55.6166|INFO|SupportBank.ReadFile|Line no: 147: 25/12/2014,Todd,Rob S,Lego Assistance,1.86
+2022-02-24 19:16:55.6166|INFO|SupportBank.ReadFile|Line no: 148: 28/12/2014,Ben B,Laura B,Coffee,1.44
+2022-02-24 19:16:55.6166|INFO|SupportBank.ReadFile|Line no: 149: 29/12/2014,Ben B,Sam N,Coffee,5.26
+2022-02-24 19:17:25.9772|INFO|SupportBank.ReadFile|Hello world
+2022-02-24 19:19:42.8672|INFO|SupportBank.Bank|Hello world
+2022-02-24 19:19:42.8933|INFO|SupportBank.Bank|Hello world
+2022-02-24 19:22:43.1761|INFO|SupportBank.Bank|Hello world
+2022-02-24 19:22:43.2047|INFO|SupportBank.Bank|Hello world
+2022-02-24 19:22:43.2131|ERROR|SupportBank.Program|No command entered. Please enter list all or list followed by a name
+2022-02-24 19:23:56.2809|INFO|SupportBank.Bank|Hello world
+2022-02-24 19:23:56.3079|INFO|SupportBank.Bank|Hello world
+2022-02-24 19:29:04.4859|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Jon A, ToName = Sarah T
+2022-02-24 19:29:04.5147|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Stephen S, ToName = Tim L
+2022-02-24 19:29:04.5147|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Laura B, ToName = Stephen S
+2022-02-24 19:29:04.5147|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Rob S, ToName = Ben B
+2022-02-24 19:29:04.5147|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Stephen S, ToName = Ben B
+2022-02-24 19:29:04.5147|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Sam N, ToName = Stephen S
+2022-02-24 19:29:04.5147|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Stephen S, ToName = Gergana I
+2022-02-24 19:29:04.5147|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Sam N, ToName = Stephen S
+2022-02-24 19:29:04.5147|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Laura B, ToName = Sam N
+2022-02-24 19:29:04.5147|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Todd, ToName = Ben B
+2022-02-24 19:29:04.5147|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Sam N, ToName = Gergana I
+2022-02-24 19:29:04.5147|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Todd, ToName = Ben B
+2022-02-24 19:29:04.5147|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Chris W, ToName = Ben B
+2022-02-24 19:29:04.5147|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Todd, ToName = Rob S
+2022-02-24 19:29:04.5147|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Jon A, ToName = Sam N
+2022-02-24 19:29:04.5147|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Dan W, ToName = Sam N
+2022-02-24 19:29:04.5147|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Laura B, ToName = Stephen S
+2022-02-24 19:29:04.5268|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Stephen S, ToName = Gergana I
+2022-02-24 19:29:04.5268|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Sarah T, ToName = Sam N
+2022-02-24 19:29:04.5268|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Tim L, ToName = Sam N
+2022-02-24 19:29:04.5268|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Todd, ToName = Rob S
+2022-02-24 19:29:04.5268|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Ben B, ToName = Rob S
+2022-02-24 19:29:04.5268|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Stephen S, ToName = Jon A
+2022-02-24 19:29:04.5268|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Sam N, ToName = Gergana I
+2022-02-24 19:29:04.5268|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Todd, ToName = Laura B
+2022-02-24 19:29:04.5268|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Todd, ToName = Gergana I
+2022-02-24 19:29:04.5268|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Sarah T, ToName = Ben B
+2022-02-24 19:29:04.5268|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Sarah T, ToName = Stephen S
+2022-02-24 19:29:04.5268|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Tim L, ToName = Sarah T
+2022-02-24 19:29:04.5268|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Rob S, ToName = Tim L
+2022-02-24 19:29:04.5268|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Jon A, ToName = Sam N
+2022-02-24 19:29:04.5417|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Ben B, ToName = Sam N
+2022-02-24 19:29:04.5417|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Todd, ToName = Sarah T
+2022-02-24 19:29:04.5417|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Dan W, ToName = Laura B
+2022-02-24 19:29:04.5417|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Sam N, ToName = Laura B
+2022-02-24 19:29:04.5417|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Todd, ToName = Ben B
+2022-02-24 19:29:04.5417|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Jon A, ToName = Stephen S
+2022-02-24 19:29:04.5417|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Stephen S, ToName = Sam N
+2022-02-24 19:29:04.5417|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Ben B, ToName = Rob S
+2022-02-24 19:29:04.5417|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Todd, ToName = Sarah T
+2022-02-24 19:29:04.5417|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Todd, ToName = Laura B
+2022-02-24 19:29:04.5417|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Rob S, ToName = Sam N
+2022-02-24 19:29:04.5417|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Ben B, ToName = Gergana I
+2022-02-24 19:29:04.5417|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Dan W, ToName = Gergana I
+2022-02-24 19:29:04.5417|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Stephen S, ToName = Rob S
+2022-02-24 19:29:04.5417|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Tim L, ToName = Dan W
+2022-02-24 19:29:04.5417|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Todd, ToName = Tim L
+2022-02-24 19:29:04.5578|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Laura B, ToName = Ben B
+2022-02-24 19:29:04.5578|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Jon A, ToName = Gergana I
+2022-02-24 19:29:04.5578|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Dan W, ToName = Sarah T
+2022-02-24 19:29:04.5578|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Tim L, ToName = Chris W
+2022-02-24 19:29:04.5578|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Laura B, ToName = Todd
+2022-02-24 19:29:04.5578|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Tim L, ToName = Ben B
+2022-02-24 19:29:04.5578|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Rob S, ToName = Sarah T
+2022-02-24 19:29:04.5578|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Jon A, ToName = Todd
+2022-02-24 19:29:04.5578|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Tim L, ToName = Todd
+2022-02-24 19:29:04.5578|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Sam N, ToName = Tim L
+2022-02-24 19:29:04.5578|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Ben B, ToName = Laura B
+2022-02-24 19:29:04.5578|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Laura B, ToName = Todd
+2022-02-24 19:29:04.5578|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Tim L, ToName = Ben B
+2022-02-24 19:29:04.5578|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Tim L, ToName = Stephen S
+2022-02-24 19:29:04.5578|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Dan W, ToName = Gergana I
+2022-02-24 19:29:04.5578|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Sarah T, ToName = Stephen S
+2022-02-24 19:29:04.5730|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Stephen S, ToName = Sam N
+2022-02-24 19:29:04.5730|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Todd, ToName = Sam N
+2022-02-24 19:29:04.5730|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Stephen S, ToName = Dan W
+2022-02-24 19:29:04.5730|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Ben B, ToName = Chris W
+2022-02-24 19:29:04.5730|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Tim L, ToName = Stephen S
+2022-02-24 19:29:04.5730|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Stephen S, ToName = Ben B
+2022-02-24 19:29:04.5730|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Chris W, ToName = Todd
+2022-02-24 19:29:04.5730|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Sarah T, ToName = Gergana I
+2022-02-24 19:29:04.5730|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Chris W, ToName = Laura B
+2022-02-24 19:29:04.5730|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Rob S, ToName = Jon A
+2022-02-24 19:29:04.5730|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Stephen S, ToName = Dan W
+2022-02-24 19:29:04.5730|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Sam N, ToName = Jon A
+2022-02-24 19:29:04.5730|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Dan W, ToName = Tim L
+2022-02-24 19:29:04.5730|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Dan W, ToName = Sarah T
+2022-02-24 19:29:04.5730|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Gergana I, ToName = Sam N
+2022-02-24 19:29:04.5730|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Jon A, ToName = Dan W
+2022-02-24 19:29:04.5730|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Gergana I, ToName = Stephen S
+2022-02-24 19:29:04.5730|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Sarah T, ToName = Ben B
+2022-02-24 19:29:04.5730|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Rob S, ToName = Tim L
+2022-02-24 19:29:04.5887|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Laura B, ToName = Stephen S
+2022-02-24 19:29:04.5887|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Gergana I, ToName = Chris W
+2022-02-24 19:29:04.5887|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Jon A, ToName = Sam N
+2022-02-24 19:29:04.5887|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Sam N, ToName = Gergana I
+2022-02-24 19:29:04.5887|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Laura B, ToName = Rob S
+2022-02-24 19:29:04.5887|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Gergana I, ToName = Ben B
+2022-02-24 19:29:04.5887|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Tim L, ToName = Laura B
+2022-02-24 19:29:04.5887|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Stephen S, ToName = Rob S
+2022-02-24 19:29:04.5887|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Sarah T, ToName = Todd
+2022-02-24 19:29:04.5887|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Chris W, ToName = Tim L
+2022-02-24 19:29:04.5887|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Jon A, ToName = Tim L
+2022-02-24 19:29:04.5887|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Ben B, ToName = Gergana I
+2022-02-24 19:29:04.5887|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Chris W, ToName = Sam N
+2022-02-24 19:29:04.5887|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Ben B, ToName = Stephen S
+2022-02-24 19:29:04.5887|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Laura B, ToName = Stephen S
+2022-02-24 19:29:04.5887|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Gergana I, ToName = Stephen S
+2022-02-24 19:29:04.5887|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Laura B, ToName = Tim L
+2022-02-24 19:29:04.5887|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Ben B, ToName = Chris W
+2022-02-24 19:29:04.5887|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Sam N, ToName = Gergana I
+2022-02-24 19:29:04.5887|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Jon A, ToName = Tim L
+2022-02-24 19:29:04.6054|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Dan W, ToName = Todd
+2022-02-24 19:29:04.6054|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Todd, ToName = Dan W
+2022-02-24 19:29:04.6054|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Laura B, ToName = Jon A
+2022-02-24 19:29:04.6054|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Gergana I, ToName = Rob S
+2022-02-24 19:29:04.6054|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Jon A, ToName = Ben B
+2022-02-24 19:29:04.6054|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Jon A, ToName = Laura B
+2022-02-24 19:29:04.6054|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Sarah T, ToName = Dan W
+2022-02-24 19:29:04.6054|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Ben B, ToName = Tim L
+2022-02-24 19:29:04.6054|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Jon A, ToName = Dan W
+2022-02-24 19:29:04.6054|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Ben B, ToName = Todd
+2022-02-24 19:29:04.6054|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Sarah T, ToName = Tim L
+2022-02-24 19:29:04.6054|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Ben B, ToName = Gergana I
+2022-02-24 19:29:04.6054|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Ben B, ToName = Gergana I
+2022-02-24 19:29:04.6054|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Gergana I, ToName = Rob S
+2022-02-24 19:29:04.6054|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Dan W, ToName = Sam N
+2022-02-24 19:29:04.6199|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Dan W, ToName = Sam N
+2022-02-24 19:29:04.6199|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Jon A, ToName = Dan W
+2022-02-24 19:29:04.6199|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Laura B, ToName = Todd
+2022-02-24 19:29:04.6199|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Gergana I, ToName = Dan W
+2022-02-24 19:29:04.6199|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Dan W, ToName = Ben B
+2022-02-24 19:29:04.6199|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Chris W, ToName = Gergana I
+2022-02-24 19:29:04.6199|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Sarah T, ToName = Tim L
+2022-02-24 19:29:04.6199|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Chris W, ToName = Rob S
+2022-02-24 19:29:04.6199|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Rob S, ToName = Ben B
+2022-02-24 19:29:04.6199|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Sam N, ToName = Laura B
+2022-02-24 19:29:04.6199|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Jon A, ToName = Ben B
+2022-02-24 19:29:04.6199|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Sam N, ToName = Dan W
+2022-02-24 19:29:04.6199|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Sam N, ToName = Chris W
+2022-02-24 19:29:04.6199|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Laura B, ToName = Jon A
+2022-02-24 19:29:04.6199|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Chris W, ToName = Todd
+2022-02-24 19:29:04.6199|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Todd, ToName = Sarah T
+2022-02-24 19:29:04.6199|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Chris W, ToName = Rob S
+2022-02-24 19:29:04.6199|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Tim L, ToName = Dan W
+2022-02-24 19:29:04.6199|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Jon A, ToName = Sam N
+2022-02-24 19:29:04.6367|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Gergana I, ToName = Rob S
+2022-02-24 19:29:04.6367|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Jon A, ToName = Chris W
+2022-02-24 19:29:04.6367|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Dan W, ToName = Tim L
+2022-02-24 19:29:04.6367|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Gergana I, ToName = Laura B
+2022-02-24 19:29:04.6367|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Todd, ToName = Tim L
+2022-02-24 19:29:04.6367|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Chris W, ToName = Ben B
+2022-02-24 19:29:04.6367|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Rob S, ToName = Gergana I
+2022-02-24 19:29:04.6367|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Gergana I, ToName = Laura B
+2022-02-24 19:29:04.6367|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Dan W, ToName = Jon A
+2022-02-24 19:29:04.6367|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Todd, ToName = Rob S
+2022-02-24 19:29:04.6367|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Ben B, ToName = Laura B
+2022-02-24 19:29:04.6367|INFO|SupportBank.Bank|input= Jon A, Transaction FromName = Ben B, ToName = Sam N
+2022-02-24 19:36:28.2438|INFO|SupportBank.Bank|Hello world
+2022-02-24 19:36:28.2716|INFO|SupportBank.Bank|Hello world
