@@ -1,12 +1,12 @@
 namespace SupportBank
 {
-    public class AccountHolders
+    public class AccountHolder
     {
-        public List<string> Names { get; set; }
+        public string Name { get; set; }
         public decimal Total { get; set; }
-        public AccountHolders (List<string> names, decimal total)
+        public AccountHolder (string name, decimal total)
         {
-            Names = names;
+            Name = name;
             Total = total;
         }
     }

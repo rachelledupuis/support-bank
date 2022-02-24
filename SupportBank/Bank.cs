@@ -7,34 +7,42 @@ namespace SupportBank
         {
             Transactions = transactions;
         }
-        public List<string> BuildAccountHolders(List<Transaction> bank)
+        public List<AccountHolder> BuildAccountHolders(List<Transaction> bank)
         {
-            List<AccountHolders> holders = new List<AccountHolders>();
+            List<AccountHolder> holders = new List<AccountHolder>();
             //Loop through all Transaction objects
             for (int i = 0; i <= bank.Count(); i++) 
             {
                 
-                if (holders.Any(holder => holder.Names == bank[i].FromPerson))
+                if (holders.Any(holder => holder.Name == bank[i].FromPerson))
+               
                 {
-                    holders.Total += bank[i].Amount;
+                    holders.Single(x => x.Name == bank[i].FromPerson).Total = Convert.ToDecimal(bank[i].Amount);
+                    
                 } else 
                 {
-                    holders.Add(bank[i].FromPerson, bank[i].Amount);
+                    AccountHolder account = new AccountHolder(bank[i].FromPerson, Convert.ToDecimal(bank[i].Amount));
+                    holders.Add(account);
                 }
                 
                 
-                if (holders.Any(holder => holder.Names == bank[i].ToPerson))
+                if (holders.Any(holder => holder.Name == bank[i].ToPerson))
                 {
-                    holders.Total -= bank[i].Amount;
+                    holders.Single(x => x.Name == bank[i].ToPerson).Total = (Convert.ToDecimal(bank[i].Amount) * -1);
                 }
                 else
                 {
-                    holders.Add(bank[i].ToPerson);
-                    holders.Total -= bank[i].Amount;
+                    AccountHolder account = new AccountHolder(bank[i].ToPerson, (Convert.ToDecimal(bank[i].Amount)*-1));
+                    holders.Add(account);
                 }
                 
             }
             return holders;
         }
+        // public void PrintAccounts(List<AccountHolder> holders)
+        // {
+        //     foreach 
+        //     Console.WriteLine($"{holders.N")
+        // }
     }
 }

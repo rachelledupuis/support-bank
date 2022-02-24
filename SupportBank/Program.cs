@@ -10,6 +10,8 @@ namespace SupportBank
             // test.Read();
             Bank supportBank = new Bank(test.Read());
             Console.WriteLine(supportBank.Transactions[0].FromPerson);
+            List<AccountHolder> accountHolders = new List<AccountHolder>(supportBank.BuildAccountHolders(supportBank));
+            
         }
     }
 }
