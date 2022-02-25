@@ -47,7 +47,7 @@ namespace SupportBank
             {
                 foreach(var transaction in Transactions)
                 {
-                    //Logger.Info($"input= {name}, Transaction FromName = {transaction.FromPerson.Name}, ToName = {transaction.ToPerson.Name}");
+                    Logger.Info($"input= {name}, Transaction FromName = {transaction.FromPerson.Name}, ToName = {transaction.ToPerson.Name}");
                     if (!Transactions.Any(transaction => transaction.FromPerson.Name == name))
                     {
                         if (!Transactions.Any(transaction => transaction.ToPerson.Name == name))
