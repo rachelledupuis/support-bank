@@ -3,7 +3,7 @@ using System.IO;
 
 namespace SupportBank
 {
-    public class ReadCsvFile : IReadable
+    public class ReadJsonFile : IReadable
     {
         private static readonly NLog.Logger Logger = NLog.LogManager.GetCurrentClassLogger();       
         public Bank Read(string filePath)

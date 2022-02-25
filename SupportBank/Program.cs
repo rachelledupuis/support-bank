@@ -24,11 +24,12 @@ namespace SupportBank
             // Apply config           
             NLog.LogManager.Configuration = config;
         
-            ReadFile transactionsCsv = new ReadFile();
+            
             string goodFileA = @"C:\Training\support-bank\support-bank\Transactions2014.csv";
             string dodgyFileA = @"C:\Training\support-bank\support-bank\DodgyTransactions2015.csv";
             string goodFileR = @"C:\Training\support-bank\Transactions2014.csv";
             string dodgyFileR = @"C:\Training\support-bank\DodgyTransactions2015.csv";
+            ReadCsvFile transactionsCsv = new ReadCsvFile();
             Bank supportBank = transactionsCsv.Read(dodgyFileA);
 
             try 
