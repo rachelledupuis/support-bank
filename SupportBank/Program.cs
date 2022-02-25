@@ -29,8 +29,13 @@ namespace SupportBank
             string dodgyFileA = @"C:\Training\support-bank\support-bank\DodgyTransactions2015.csv";
             string goodFileR = @"C:\Training\support-bank\Transactions2014.csv";
             string dodgyFileR = @"C:\Training\support-bank\DodgyTransactions2015.csv";
-            ReadCsvFile transactionsCsv = new ReadCsvFile();
-            Bank supportBank = transactionsCsv.Read(dodgyFileA);
+            
+            //ReadCsvFile transactionsCsv = new ReadCsvFile();
+            //Bank supportBank = transactionsCsv.Read(dodgyFileA);
+
+            string jsonFileA = @"C:\Training\support-bank\support-bank\Transactions2013.json";
+            ReadJsonFile transactionsJson = new ReadJsonFile();
+            Bank supportBank = transactionsJson.Read(jsonFileA);
 
             try 
             {
