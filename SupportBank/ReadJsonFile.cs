@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using System.Text.Json;
 
 namespace SupportBank
 {
@@ -15,50 +16,44 @@ namespace SupportBank
             {
                 // Create an instance of StreamReader to read from a file.
                 // The using statement also closes the StreamReader.
-                using (StreamReader sr = new StreamReader(filePath))
+                //using (StreamReader r = new StreamReader(filePath))
                 {
+                    //string json = r.ReadToEnd();
+                    //List<Item> items = JsonConvert.DeserializeObject<List<Item>>(json);
+                    string jsonString = File.ReadAllText(filePath);
+                    var lines = JsonSerializer.Deserialize<List<Transaction>>(jsonString);
+                    //dynamic array = JsonConvert.DeserializeObject(json);
+                    //Transaction myDeserializedClass = JsonConvert.DeserializeObject(myJsonResponse); 
                     
-                    string? line;
-                    // Read and display lines from the file until the end of
-                    // the file is reached.
-                    string? headerLine = sr.ReadLine();
-                    
-                    int lineNo = 2;
-                    while ((line = sr.ReadLine()) != null)
+                    //Transaction transaction = JsonSerializer.Deserialize<Transaction>(jsonString)!;
+                    foreach(var transaction in lines)
                     {
-                        
-                        //Logger.Info($"Line no: {lineNo}: {line}");
-                        var values = line.Split(',');
-
-                        if (!holders.Any(holder => holder.Name == values[1]))
+                        if (!holders.Any(holder => holder.Name == transaction.FromAccount.Name))
                         {
-                            holders.Add(new Account(values[1]));
+                            holders.Add(new Account(transaction.FromAccount.Name));
                         }
                         
-                        if (!holders.Any(holder => holder.Name == values[2]))
+                        if (!holders.Any(holder => holder.Name == transaction.ToAccount.Name))
                         {
-                            holders.Add(new Account(values[2]));
+                            holders.Add(new Account(transaction.ToAccount.Name));
                         }
 
-                        Account from = holders.Find(account => account.Name == values[1]);
-                        Account to = holders.Find(account => account.Name == values[2]);
+                        Account from = holders.Find(account => account.Name == transaction.FromAccount.Name);
+                        Account to = holders.Find(account => account.Name == transaction.ToAccount.Name);
 
                         try {
                             bank.Transactions.Add(new Transaction(
-                            DateTime.Parse(values[0]), 
-                            from, 
-                            to, 
-                            values[3], 
-                            Convert.ToDecimal(values[4])
+                            transaction.Date, 
+                            transaction.FromAccount, 
+                            transaction.ToAccount, 
+                            transaction.Narrative, 
+                            transaction.Amount
                             ));  
                         }
                         catch (FormatException)
                         {
-                            Logger.Error($"CSV:Format Exception on Line: {line}");
+                            Logger.Error($"CSV:Format Exception on Line:");
                         }
-                         
-                        
-                        lineNo++;
                     }
                 }
             }

@@ -14,7 +14,7 @@ namespace SupportBank
             string logPathA = @"C:\Training\support-bank\support-bank\SupportBank\log.log";
             string logPathR = @"C:\Training\support-bank\SupportBank\log.log";
             
-            var logfile = new NLog.Targets.FileTarget("logfile") { FileName = logPathA };
+            var logfile = new NLog.Targets.FileTarget("logfile") { FileName = logPathR };
             var logconsole = new NLog.Targets.ConsoleTarget("logconsole");
                         
             // Rules for mapping loggers to targets            
@@ -34,8 +34,9 @@ namespace SupportBank
             //Bank supportBank = transactionsCsv.Read(dodgyFileA);
 
             string jsonFileA = @"C:\Training\support-bank\support-bank\Transactions2013.json";
+            string jsonFileR = @"C:\Training\support-bank\Transactions2013.json";
             ReadJsonFile transactionsJson = new ReadJsonFile();
-            Bank supportBank = transactionsJson.Read(jsonFileA);
+            Bank supportBank = transactionsJson.Read(jsonFileR);
 
             try 
             {

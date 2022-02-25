@@ -16,14 +16,14 @@ namespace SupportBank
                     //Logger.Info("Hello world");
                     foreach(var transaction in Transactions)
                     {    
-                        if (!accounts.Any(account => account.Name == transaction.FromPerson.Name))
+                        if (!accounts.Any(account => account.Name == transaction.FromAccount.Name))
                             {
-                                accounts.Add(transaction.FromPerson);
+                                accounts.Add(transaction.FromAccount);
                             }
                             
-                        if (!accounts.Any(account => account.Name == transaction.ToPerson.Name))
+                        if (!accounts.Any(account => account.Name == transaction.ToAccount.Name))
                         {
-                            accounts.Add(transaction.ToPerson);
+                            accounts.Add(transaction.ToAccount);
                         }
                     }
                  
@@ -47,21 +47,21 @@ namespace SupportBank
             {
                 foreach(var transaction in Transactions)
                 {
-                    Logger.Info($"input= {name}, Transaction FromName = {transaction.FromPerson.Name}, ToName = {transaction.ToPerson.Name}");
-                    if (!Transactions.Any(transaction => transaction.FromPerson.Name == name))
+                    Logger.Info($"input= {name}, Transaction FromName = {transaction.FromAccount.Name}, ToName = {transaction.ToAccount.Name}");
+                    if (!Transactions.Any(transaction => transaction.FromAccount.Name == name))
                     {
-                        if (!Transactions.Any(transaction => transaction.ToPerson.Name == name))
+                        if (!Transactions.Any(transaction => transaction.ToAccount.Name == name))
                         {
                             throw new ArgumentOutOfRangeException("The given name does not match to any account");
                         }
                     }
-                    if (transaction.FromPerson.Name == name)
+                    if (transaction.FromAccount.Name == name)
                     {
-                        Console.WriteLine($"{transaction.Date.ToString("dd/MM/yyyy")}: £{transaction.Amount} owed to {transaction.ToPerson.Name} for {transaction.Narrative}");
+                        Console.WriteLine($"{transaction.Date.ToString("dd/MM/yyyy")}: £{transaction.Amount} owed to {transaction.ToAccount.Name} for {transaction.Narrative}");
                     }
-                    if (transaction.ToPerson.Name == name)
+                    if (transaction.ToAccount.Name == name)
                     {
-                        Console.WriteLine($"{transaction.Date.ToString("dd/MM/yyyy")}: £{transaction.Amount} owed by {transaction.FromPerson.Name} for {transaction.Narrative}");
+                        Console.WriteLine($"{transaction.Date.ToString("dd/MM/yyyy")}: £{transaction.Amount} owed by {transaction.FromAccount.Name} for {transaction.Narrative}");
                     }
                 }
             }
@@ -81,11 +81,11 @@ namespace SupportBank
             
                 foreach(var transaction in Transactions)
                 {
-                    if (transaction.FromPerson.Name == name)
+                    if (transaction.FromAccount.Name == name)
                     {
                         result -= transaction.Amount;
                     }
-                    if (transaction.ToPerson.Name == name)
+                    if (transaction.ToAccount.Name == name)
                     {
                         result += transaction.Amount;
                     }
