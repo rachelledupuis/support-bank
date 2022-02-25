@@ -35,7 +35,8 @@ namespace SupportBank
 
             string jsonFileA = @"C:\Training\support-bank\support-bank\Transactions2013.json";
             ReadJsonFile transactionsJson = new ReadJsonFile();
-            Bank supportBank = transactionsJson.Read(jsonFileA);
+            // Bank supportBank = transactionsJson.Read(jsonFileA);
+            List<InputTransaction> transnFromFile = transactionsJson.Read(jsonFileA);
 
             try 
             {
