@@ -11,10 +11,9 @@ namespace SupportBank
             var config = new NLog.Config.LoggingConfiguration();
 
             // Targets where to log to: File and Console
-            string logPathA = @"C:\Training\support-bank\support-bank\SupportBank\log.log";
-            string logPathR = @"C:\Training\support-bank\SupportBank\log.log";
+            string logPath = @"C:\Training\support-bank\SupportBank\log.log";
             
-            var logfile = new NLog.Targets.FileTarget("logfile") { FileName = logPathR };
+            var logfile = new NLog.Targets.FileTarget("logfile") { FileName = logPath };
             var logconsole = new NLog.Targets.ConsoleTarget("logconsole");
                         
             // Rules for mapping loggers to targets            
@@ -24,19 +23,15 @@ namespace SupportBank
             // Apply config           
             NLog.LogManager.Configuration = config;
         
-            
-            string goodFileA = @"C:\Training\support-bank\support-bank\Transactions2014.csv";
-            string dodgyFileA = @"C:\Training\support-bank\support-bank\DodgyTransactions2015.csv";
-            string goodFileR = @"C:\Training\support-bank\Transactions2014.csv";
-            string dodgyFileR = @"C:\Training\support-bank\DodgyTransactions2015.csv";
+            string goodFile = @"C:\Training\support-bank\Transactions2014.csv";
+            string dodgyFile = @"C:\Training\support-bank\DodgyTransactions2015.csv";
             
             //ReadCsvFile transactionsCsv = new ReadCsvFile();
             //Bank supportBank = transactionsCsv.Read(dodgyFileA);
 
-            string jsonFileA = @"C:\Training\support-bank\support-bank\Transactions2013.json";
-            string jsonFileR = @"C:\Training\support-bank\Transactions2013.json";
+            string jsonFile = @"C:\Training\support-bank\Transactions2013.json";
             ReadJsonFile transactionsJson = new ReadJsonFile();
-            Bank supportBank = transactionsJson.Read(jsonFileR);
+            Bank supportBank = transactionsJson.Read(jsonFile);
 
             try 
             {
@@ -57,11 +52,10 @@ namespace SupportBank
                 }
             }
             catch (IndexOutOfRangeException)
-                        {
-                            Logger.Error("No command entered. Please enter list all or list followed by a name");
-                            throw;
-                        }
-            
+            {
+                Logger.Error("No command entered. Please enter list all or list followed by a name");
+                throw;
+            }
         }
     }
 }
