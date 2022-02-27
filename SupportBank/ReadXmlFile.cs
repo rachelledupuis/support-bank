@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 
 namespace SupportBank
 {
-    public class ReadJsonFile : IReadable
+    public class ReadXmlFile : IReadable
     {
         private static readonly NLog.Logger Logger = NLog.LogManager.GetCurrentClassLogger();       
         public Bank Read(string filePath)

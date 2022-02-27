@@ -13,14 +13,9 @@ namespace SupportBank
             
             try
             {
-                // Create an instance of StreamReader to read from a file.
-                // The using statement also closes the StreamReader.
                 using (StreamReader sr = new StreamReader(filePath))
                 {
-                    
                     string? line;
-                    // Read and display lines from the file until the end of
-                    // the file is reached.
                     string? headerLine = sr.ReadLine();
                     
                     int lineNo = 2;
@@ -54,8 +49,6 @@ namespace SupportBank
                         {
                             Logger.Error($"CSV:Format Exception on Line: {line}");
                         }
-                         
-                        
                         lineNo++;
                     }
                 }

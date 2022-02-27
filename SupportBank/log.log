@@ -1756,3 +1756,1166 @@
 2022-02-27 20:53:43.6372|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Todd
 2022-02-27 20:53:43.6372|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Chris W
 2022-02-27 20:53:43.6372|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Sam N
+2022-02-27 20:57:39.7352|ERROR|SupportBank.Program|No command entered. Please enter list all or list followed by a name
+2022-02-27 20:57:51.8464|INFO|SupportBank.Bank|input= ben b, Transaction FromName = Jon A, ToName = Gergana I
+2022-02-27 20:57:51.8704|ERROR|SupportBank.Bank|input= ben b
+2022-02-27 20:58:03.3512|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Jon A, ToName = Gergana I
+2022-02-27 20:58:03.3720|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Chris W, ToName = Dan W
+2022-02-27 20:58:03.3720|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Stephen S, ToName = Tim L
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Todd, ToName = Rob S
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Todd, ToName = Sarah T
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Todd, ToName = Laura B
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Laura B, ToName = Tim L
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Dan W, ToName = Rob S
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Ben B, ToName = Jon A
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Stephen S, ToName = Ben B
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Sarah T, ToName = Todd
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Sarah T, ToName = Chris W
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Sam N, ToName = Sarah T
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Dan W, ToName = Rob S
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Rob S, ToName = Laura B
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Stephen S, ToName = Todd
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Ben B, ToName = Chris W
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Sam N, ToName = Chris W
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Sarah T, ToName = Sam N
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Sarah T, ToName = Stephen S
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Jon A, ToName = Chris W
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Gergana I, ToName = Stephen S
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Laura B, ToName = Sam N
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Ben B, ToName = Sarah T
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Todd, ToName = Jon A
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Todd, ToName = Chris W
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Dan W, ToName = Chris W
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Gergana I, ToName = Rob S
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Chris W, ToName = Laura B
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Gergana I, ToName = Stephen S
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Stephen S, ToName = Dan W
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Ben B, ToName = Stephen S
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Rob S, ToName = Tim L
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Sarah T, ToName = Stephen S
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Stephen S, ToName = Chris W
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Tim L, ToName = Todd
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Todd, ToName = Gergana I
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Gergana I, ToName = Sarah T
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Rob S, ToName = Chris W
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Gergana I, ToName = Ben B
+2022-02-27 20:58:03.3760|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Todd, ToName = Sarah T
+2022-02-27 20:58:03.3897|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Ben B, ToName = Tim L
+2022-02-27 20:58:03.3897|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Stephen S, ToName = Jon A
+2022-02-27 20:58:03.3897|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Stephen S, ToName = Jon A
+2022-02-27 20:58:03.3897|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Ben B, ToName = Chris W
+2022-02-27 20:58:03.3897|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Ben B, ToName = Dan W
+2022-02-27 20:58:03.3897|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Laura B, ToName = Dan W
+2022-02-27 20:58:03.3897|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Sarah T, ToName = Ben B
+2022-02-27 20:58:03.3897|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Todd, ToName = Dan W
+2022-02-27 20:58:03.3897|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 20:58:03.3897|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Gergana I, ToName = Tim L
+2022-02-27 20:58:03.3897|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Todd, ToName = Ben B
+2022-02-27 20:58:03.3897|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Ben B, ToName = Dan W
+2022-02-27 20:58:03.3897|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Laura B, ToName = Sarah T
+2022-02-27 20:58:03.3897|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Stephen S, ToName = Sam N
+2022-02-27 20:58:03.3897|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Stephen S, ToName = Chris W
+2022-02-27 20:58:03.3897|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Stephen S, ToName = Ben B
+2022-02-27 20:58:03.3897|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Todd, ToName = Ben B
+2022-02-27 20:58:03.3897|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Chris W, ToName = Rob S
+2022-02-27 20:58:03.3897|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Rob S, ToName = Dan W
+2022-02-27 20:58:03.3897|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Todd, ToName = Jon A
+2022-02-27 20:58:03.3897|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Sarah T, ToName = Gergana I
+2022-02-27 20:58:03.3897|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Jon A, ToName = Ben B
+2022-02-27 20:58:03.3897|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Ben B, ToName = Sarah T
+2022-02-27 20:58:03.3897|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Ben B, ToName = Dan W
+2022-02-27 20:58:03.3897|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Laura B, ToName = Jon A
+2022-02-27 20:58:03.3897|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Dan W, ToName = Todd
+2022-02-27 20:58:03.3897|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 20:58:03.3897|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Stephen S, ToName = Jon A
+2022-02-27 20:58:03.3897|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Rob S, ToName = Sarah T
+2022-02-27 20:58:03.3897|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Chris W, ToName = Ben B
+2022-02-27 20:58:03.3897|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Tim L, ToName = Laura B
+2022-02-27 20:58:03.3897|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Tim L, ToName = Jon A
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Tim L, ToName = Chris W
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Stephen S, ToName = Sam N
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Jon A, ToName = Rob S
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Dan W, ToName = Sarah T
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Stephen S, ToName = Gergana I
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Dan W, ToName = Stephen S
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Sarah T, ToName = Stephen S
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Ben B, ToName = Tim L
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Ben B, ToName = Todd
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Dan W, ToName = Sam N
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Ben B, ToName = Todd
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Laura B, ToName = Tim L
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Jon A, ToName = Rob S
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Gergana I, ToName = Stephen S
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Stephen S, ToName = Chris W
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Gergana I, ToName = Chris W
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Gergana I, ToName = Ben B
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Tim L, ToName = Sam N
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Sarah T, ToName = Laura B
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Todd, ToName = Sam N
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Todd, ToName = Rob S
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Sam N, ToName = Gergana I
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Rob S, ToName = Chris W
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Gergana I, ToName = Laura B
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Chris W, ToName = Ben B
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Dan W, ToName = Tim L
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Rob S, ToName = Laura B
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Tim L, ToName = Ben B
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Tim L, ToName = Laura B
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Stephen S, ToName = Laura B
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Sam N, ToName = Rob S
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Ben B, ToName = Gergana I
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Stephen S, ToName = Dan W
+2022-02-27 20:58:03.4064|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Stephen S, ToName = Dan W
+2022-02-27 20:58:03.4217|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Chris W, ToName = Sarah T
+2022-02-27 20:58:03.4217|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Todd, ToName = Tim L
+2022-02-27 20:58:03.4217|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Chris W, ToName = Ben B
+2022-02-27 20:58:03.4217|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Gergana I, ToName = Laura B
+2022-02-27 20:58:03.4217|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Todd, ToName = Rob S
+2022-02-27 20:58:03.4217|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Ben B, ToName = Chris W
+2022-02-27 20:58:03.4217|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Laura B, ToName = Rob S
+2022-02-27 20:58:03.4217|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Laura B, ToName = Jon A
+2022-02-27 20:58:03.4217|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Sam N, ToName = Sarah T
+2022-02-27 20:58:03.4217|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Chris W, ToName = Todd
+2022-02-27 20:58:03.4217|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Sam N, ToName = Dan W
+2022-02-27 20:58:03.4217|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Dan W, ToName = Rob S
+2022-02-27 20:58:03.4217|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Sarah T, ToName = Laura B
+2022-02-27 20:58:03.4217|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Stephen S, ToName = Rob S
+2022-02-27 20:58:03.4217|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Ben B, ToName = Sarah T
+2022-02-27 20:58:03.4217|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Rob S, ToName = Tim L
+2022-02-27 20:58:03.4217|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Rob S, ToName = Sam N
+2022-02-27 20:58:03.4217|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Jon A, ToName = Tim L
+2022-02-27 20:58:03.4217|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Rob S, ToName = Dan W
+2022-02-27 20:58:03.4217|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Stephen S, ToName = Chris W
+2022-02-27 20:58:03.4217|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Tim L, ToName = Sam N
+2022-02-27 20:58:03.4217|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Ben B, ToName = Todd
+2022-02-27 20:58:03.4217|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Ben B, ToName = Sam N
+2022-02-27 20:58:03.4217|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Sam N, ToName = Sarah T
+2022-02-27 20:58:03.4217|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Jon A, ToName = Todd
+2022-02-27 20:58:03.4217|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Ben B, ToName = Sam N
+2022-02-27 20:58:03.4217|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Laura B, ToName = Tim L
+2022-02-27 20:58:03.4369|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 20:58:03.4369|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Rob S, ToName = Tim L
+2022-02-27 20:58:03.4369|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Sarah T, ToName = Ben B
+2022-02-27 20:58:03.4369|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Todd, ToName = Ben B
+2022-02-27 20:58:03.4369|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Gergana I, ToName = Sam N
+2022-02-27 20:58:03.4369|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Ben B, ToName = Rob S
+2022-02-27 20:58:03.4369|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Stephen S, ToName = Todd
+2022-02-27 20:58:03.4369|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Jon A, ToName = Chris W
+2022-02-27 20:58:03.4369|INFO|SupportBank.Bank|input= Tim L, Transaction FromName = Rob S, ToName = Sam N
+2022-02-27 20:58:16.7007|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Jon A, ToName = Gergana I
+2022-02-27 20:58:16.7207|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Chris W, ToName = Dan W
+2022-02-27 20:58:16.7207|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Stephen S, ToName = Tim L
+2022-02-27 20:58:16.7207|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Todd, ToName = Rob S
+2022-02-27 20:58:16.7207|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Todd, ToName = Sarah T
+2022-02-27 20:58:16.7207|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Todd, ToName = Laura B
+2022-02-27 20:58:16.7207|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Laura B, ToName = Tim L
+2022-02-27 20:58:16.7207|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Dan W, ToName = Rob S
+2022-02-27 20:58:16.7207|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Ben B, ToName = Jon A
+2022-02-27 20:58:16.7207|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Stephen S, ToName = Ben B
+2022-02-27 20:58:16.7207|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Sarah T, ToName = Todd
+2022-02-27 20:58:16.7207|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Sarah T, ToName = Chris W
+2022-02-27 20:58:16.7207|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Sam N, ToName = Sarah T
+2022-02-27 20:58:16.7207|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Dan W, ToName = Rob S
+2022-02-27 20:58:16.7207|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Rob S, ToName = Laura B
+2022-02-27 20:58:16.7207|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Stephen S, ToName = Todd
+2022-02-27 20:58:16.7207|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Ben B, ToName = Chris W
+2022-02-27 20:58:16.7207|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Sam N, ToName = Chris W
+2022-02-27 20:58:16.7207|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Sarah T, ToName = Sam N
+2022-02-27 20:58:16.7207|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 20:58:16.7207|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Sarah T, ToName = Stephen S
+2022-02-27 20:58:16.7207|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Jon A, ToName = Chris W
+2022-02-27 20:58:16.7207|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Gergana I, ToName = Stephen S
+2022-02-27 20:58:16.7207|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Laura B, ToName = Sam N
+2022-02-27 20:58:16.7207|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Ben B, ToName = Sarah T
+2022-02-27 20:58:16.7207|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Todd, ToName = Jon A
+2022-02-27 20:58:16.7207|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Todd, ToName = Chris W
+2022-02-27 20:58:16.7207|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Dan W, ToName = Chris W
+2022-02-27 20:58:16.7207|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Gergana I, ToName = Rob S
+2022-02-27 20:58:16.7343|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Chris W, ToName = Laura B
+2022-02-27 20:58:16.7343|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Gergana I, ToName = Stephen S
+2022-02-27 20:58:16.7343|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Stephen S, ToName = Dan W
+2022-02-27 20:58:16.7343|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Ben B, ToName = Stephen S
+2022-02-27 20:58:16.7343|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Rob S, ToName = Tim L
+2022-02-27 20:58:16.7343|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Sarah T, ToName = Stephen S
+2022-02-27 20:58:16.7343|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Stephen S, ToName = Chris W
+2022-02-27 20:58:16.7343|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Tim L, ToName = Todd
+2022-02-27 20:58:16.7343|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Todd, ToName = Gergana I
+2022-02-27 20:58:16.7343|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Gergana I, ToName = Sarah T
+2022-02-27 20:58:16.7343|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Rob S, ToName = Chris W
+2022-02-27 20:58:16.7343|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Gergana I, ToName = Ben B
+2022-02-27 20:58:16.7343|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Todd, ToName = Sarah T
+2022-02-27 20:58:16.7343|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Ben B, ToName = Tim L
+2022-02-27 20:58:16.7343|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Stephen S, ToName = Jon A
+2022-02-27 20:58:16.7343|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Stephen S, ToName = Jon A
+2022-02-27 20:58:16.7343|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Ben B, ToName = Chris W
+2022-02-27 20:58:16.7343|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Ben B, ToName = Dan W
+2022-02-27 20:58:16.7343|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Laura B, ToName = Dan W
+2022-02-27 20:58:16.7343|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Sarah T, ToName = Ben B
+2022-02-27 20:58:16.7343|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Todd, ToName = Dan W
+2022-02-27 20:58:16.7343|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 20:58:16.7343|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Gergana I, ToName = Tim L
+2022-02-27 20:58:16.7343|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Todd, ToName = Ben B
+2022-02-27 20:58:16.7500|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Ben B, ToName = Dan W
+2022-02-27 20:58:16.7500|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Laura B, ToName = Sarah T
+2022-02-27 20:58:16.7500|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Stephen S, ToName = Sam N
+2022-02-27 20:58:16.7500|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Stephen S, ToName = Chris W
+2022-02-27 20:58:16.7500|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Stephen S, ToName = Ben B
+2022-02-27 20:58:16.7500|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Todd, ToName = Ben B
+2022-02-27 20:58:16.7500|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Chris W, ToName = Rob S
+2022-02-27 20:58:16.7500|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Rob S, ToName = Dan W
+2022-02-27 20:58:16.7500|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Todd, ToName = Jon A
+2022-02-27 20:58:16.7500|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Sarah T, ToName = Gergana I
+2022-02-27 20:58:16.7500|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Jon A, ToName = Ben B
+2022-02-27 20:58:16.7500|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Ben B, ToName = Sarah T
+2022-02-27 20:58:16.7500|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Ben B, ToName = Dan W
+2022-02-27 20:58:16.7500|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Laura B, ToName = Jon A
+2022-02-27 20:58:16.7500|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Dan W, ToName = Todd
+2022-02-27 20:58:16.7500|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 20:58:16.7500|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Stephen S, ToName = Jon A
+2022-02-27 20:58:16.7500|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Rob S, ToName = Sarah T
+2022-02-27 20:58:16.7500|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Chris W, ToName = Ben B
+2022-02-27 20:58:16.7500|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Tim L, ToName = Laura B
+2022-02-27 20:58:16.7500|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Tim L, ToName = Jon A
+2022-02-27 20:58:16.7500|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Tim L, ToName = Chris W
+2022-02-27 20:58:16.7500|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Stephen S, ToName = Sam N
+2022-02-27 20:58:16.7500|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Jon A, ToName = Rob S
+2022-02-27 20:58:16.7500|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Dan W, ToName = Sarah T
+2022-02-27 20:58:16.7500|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 20:58:16.7500|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Stephen S, ToName = Gergana I
+2022-02-27 20:58:16.7500|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Dan W, ToName = Stephen S
+2022-02-27 20:58:16.7500|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Sarah T, ToName = Stephen S
+2022-02-27 20:58:16.7500|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Ben B, ToName = Tim L
+2022-02-27 20:58:16.7654|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Ben B, ToName = Todd
+2022-02-27 20:58:16.7654|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Dan W, ToName = Sam N
+2022-02-27 20:58:16.7654|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Ben B, ToName = Todd
+2022-02-27 20:58:16.7654|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Laura B, ToName = Tim L
+2022-02-27 20:58:16.7654|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Jon A, ToName = Rob S
+2022-02-27 20:58:16.7654|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Gergana I, ToName = Stephen S
+2022-02-27 20:58:16.7654|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Stephen S, ToName = Chris W
+2022-02-27 20:58:16.7654|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Gergana I, ToName = Chris W
+2022-02-27 20:58:16.7654|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Gergana I, ToName = Ben B
+2022-02-27 20:58:16.7654|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Tim L, ToName = Sam N
+2022-02-27 20:58:16.7654|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Sarah T, ToName = Laura B
+2022-02-27 20:58:16.7654|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Todd, ToName = Sam N
+2022-02-27 20:58:16.7654|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Todd, ToName = Rob S
+2022-02-27 20:58:16.7654|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Sam N, ToName = Gergana I
+2022-02-27 20:58:16.7654|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Rob S, ToName = Chris W
+2022-02-27 20:58:16.7654|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Gergana I, ToName = Laura B
+2022-02-27 20:58:16.7654|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Chris W, ToName = Ben B
+2022-02-27 20:58:16.7654|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Dan W, ToName = Tim L
+2022-02-27 20:58:16.7654|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Rob S, ToName = Laura B
+2022-02-27 20:58:16.7654|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Tim L, ToName = Ben B
+2022-02-27 20:58:16.7654|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Tim L, ToName = Laura B
+2022-02-27 20:58:16.7654|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Stephen S, ToName = Laura B
+2022-02-27 20:58:16.7654|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Sam N, ToName = Rob S
+2022-02-27 20:58:16.7654|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Ben B, ToName = Gergana I
+2022-02-27 20:58:16.7654|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Stephen S, ToName = Dan W
+2022-02-27 20:58:16.7654|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Stephen S, ToName = Dan W
+2022-02-27 20:58:16.7806|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Chris W, ToName = Sarah T
+2022-02-27 20:58:16.7806|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Todd, ToName = Tim L
+2022-02-27 20:58:16.7806|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Chris W, ToName = Ben B
+2022-02-27 20:58:16.7806|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Gergana I, ToName = Laura B
+2022-02-27 20:58:16.7806|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Todd, ToName = Rob S
+2022-02-27 20:58:16.7806|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Ben B, ToName = Chris W
+2022-02-27 20:58:16.7806|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Laura B, ToName = Rob S
+2022-02-27 20:58:16.7806|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Laura B, ToName = Jon A
+2022-02-27 20:58:16.7806|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Sam N, ToName = Sarah T
+2022-02-27 20:58:16.7806|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Chris W, ToName = Todd
+2022-02-27 20:58:16.7806|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Sam N, ToName = Dan W
+2022-02-27 20:58:16.7806|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Dan W, ToName = Rob S
+2022-02-27 20:58:16.7806|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Sarah T, ToName = Laura B
+2022-02-27 20:58:16.7806|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Stephen S, ToName = Rob S
+2022-02-27 20:58:16.7806|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Ben B, ToName = Sarah T
+2022-02-27 20:58:16.7806|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Rob S, ToName = Tim L
+2022-02-27 20:58:16.7806|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Rob S, ToName = Sam N
+2022-02-27 20:58:16.7806|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Jon A, ToName = Tim L
+2022-02-27 20:58:16.7806|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Rob S, ToName = Dan W
+2022-02-27 20:58:16.7806|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Stephen S, ToName = Chris W
+2022-02-27 20:58:16.7806|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Tim L, ToName = Sam N
+2022-02-27 20:58:16.7806|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Ben B, ToName = Todd
+2022-02-27 20:58:16.7806|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Ben B, ToName = Sam N
+2022-02-27 20:58:16.7806|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Sam N, ToName = Sarah T
+2022-02-27 20:58:16.7806|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Jon A, ToName = Todd
+2022-02-27 20:58:16.7962|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Ben B, ToName = Sam N
+2022-02-27 20:58:16.7962|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Laura B, ToName = Tim L
+2022-02-27 20:58:16.7962|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 20:58:16.7962|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Rob S, ToName = Tim L
+2022-02-27 20:58:16.7962|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Sarah T, ToName = Ben B
+2022-02-27 20:58:16.7962|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Todd, ToName = Ben B
+2022-02-27 20:58:16.7962|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Gergana I, ToName = Sam N
+2022-02-27 20:58:16.7962|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Ben B, ToName = Rob S
+2022-02-27 20:58:16.7962|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Stephen S, ToName = Todd
+2022-02-27 20:58:16.7962|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Jon A, ToName = Chris W
+2022-02-27 20:58:16.7962|INFO|SupportBank.Bank|input= Ben B, Transaction FromName = Rob S, ToName = Sam N
+2022-02-27 21:04:18.7478|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Gergana I
+2022-02-27 21:04:18.7682|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Dan W
+2022-02-27 21:04:18.7682|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Tim L
+2022-02-27 21:04:18.7682|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Rob S
+2022-02-27 21:04:18.7682|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Sarah T
+2022-02-27 21:04:18.7682|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Laura B
+2022-02-27 21:04:18.7682|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Tim L
+2022-02-27 21:04:18.7682|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Rob S
+2022-02-27 21:04:18.7682|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Jon A
+2022-02-27 21:04:18.7682|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Ben B
+2022-02-27 21:04:18.7682|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Todd
+2022-02-27 21:04:18.7682|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Chris W
+2022-02-27 21:04:18.7682|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Sarah T
+2022-02-27 21:04:18.7682|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Rob S
+2022-02-27 21:04:18.7682|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Laura B
+2022-02-27 21:04:18.7682|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Todd
+2022-02-27 21:04:18.7682|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Chris W
+2022-02-27 21:04:18.7682|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Chris W
+2022-02-27 21:04:18.7682|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Sam N
+2022-02-27 21:04:18.7682|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 21:04:18.7682|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Stephen S
+2022-02-27 21:04:18.7682|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Chris W
+2022-02-27 21:04:18.7682|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Stephen S
+2022-02-27 21:04:18.7682|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Sam N
+2022-02-27 21:04:18.7682|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Sarah T
+2022-02-27 21:04:18.7682|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Jon A
+2022-02-27 21:04:18.7682|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Chris W
+2022-02-27 21:04:18.7682|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Chris W
+2022-02-27 21:04:18.7682|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Rob S
+2022-02-27 21:04:18.7682|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Laura B
+2022-02-27 21:04:18.7682|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Stephen S
+2022-02-27 21:04:18.7682|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Dan W
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Stephen S
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Tim L
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Stephen S
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Chris W
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Todd
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Gergana I
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Sarah T
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Chris W
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Ben B
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Sarah T
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Tim L
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Jon A
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Jon A
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Chris W
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Dan W
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Dan W
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Ben B
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Dan W
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Tim L
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Ben B
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Dan W
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Sarah T
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Sam N
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Chris W
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Ben B
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Ben B
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Rob S
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Dan W
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Jon A
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Gergana I
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Ben B
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Sarah T
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Dan W
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Jon A
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Todd
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Jon A
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Sarah T
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Ben B
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Laura B
+2022-02-27 21:04:18.7818|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Jon A
+2022-02-27 21:04:18.7977|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Chris W
+2022-02-27 21:04:18.7977|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Sam N
+2022-02-27 21:04:18.7977|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Rob S
+2022-02-27 21:04:18.7977|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Sarah T
+2022-02-27 21:04:18.7977|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 21:04:18.7977|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Gergana I
+2022-02-27 21:04:18.7977|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Stephen S
+2022-02-27 21:04:18.7977|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Stephen S
+2022-02-27 21:04:18.7977|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Tim L
+2022-02-27 21:04:18.7977|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Todd
+2022-02-27 21:04:18.7977|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Sam N
+2022-02-27 21:04:18.7977|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Todd
+2022-02-27 21:04:18.7977|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Tim L
+2022-02-27 21:04:18.7977|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Rob S
+2022-02-27 21:04:18.7977|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Stephen S
+2022-02-27 21:04:18.7977|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Chris W
+2022-02-27 21:04:18.7977|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Chris W
+2022-02-27 21:04:18.7977|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Ben B
+2022-02-27 21:04:18.7977|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Sam N
+2022-02-27 21:04:18.7977|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Laura B
+2022-02-27 21:04:18.7977|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Sam N
+2022-02-27 21:04:18.7977|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Rob S
+2022-02-27 21:04:18.7977|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Gergana I
+2022-02-27 21:04:18.7977|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Chris W
+2022-02-27 21:04:18.7977|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Laura B
+2022-02-27 21:04:18.7977|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Ben B
+2022-02-27 21:04:18.7977|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Tim L
+2022-02-27 21:04:18.7977|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Laura B
+2022-02-27 21:04:18.7977|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Ben B
+2022-02-27 21:04:18.7977|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Laura B
+2022-02-27 21:04:18.7977|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Laura B
+2022-02-27 21:04:18.7977|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Rob S
+2022-02-27 21:04:18.7977|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Gergana I
+2022-02-27 21:04:18.8138|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Dan W
+2022-02-27 21:04:18.8138|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Dan W
+2022-02-27 21:04:18.8138|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Sarah T
+2022-02-27 21:04:18.8138|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Tim L
+2022-02-27 21:04:18.8138|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Ben B
+2022-02-27 21:04:18.8138|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Laura B
+2022-02-27 21:04:18.8138|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Rob S
+2022-02-27 21:04:18.8138|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Chris W
+2022-02-27 21:04:18.8138|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Rob S
+2022-02-27 21:04:18.8138|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Jon A
+2022-02-27 21:04:18.8138|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Sarah T
+2022-02-27 21:04:18.8138|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Todd
+2022-02-27 21:04:18.8138|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Dan W
+2022-02-27 21:04:18.8138|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Rob S
+2022-02-27 21:04:18.8138|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Laura B
+2022-02-27 21:04:18.8138|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Rob S
+2022-02-27 21:04:18.8138|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Sarah T
+2022-02-27 21:04:18.8138|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Tim L
+2022-02-27 21:04:18.8138|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Sam N
+2022-02-27 21:04:18.8138|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Tim L
+2022-02-27 21:04:18.8138|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Dan W
+2022-02-27 21:04:18.8138|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Chris W
+2022-02-27 21:04:18.8138|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Sam N
+2022-02-27 21:04:18.8138|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Todd
+2022-02-27 21:04:18.8138|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Sam N
+2022-02-27 21:04:18.8138|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Sarah T
+2022-02-27 21:04:18.8138|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Todd
+2022-02-27 21:04:18.8138|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Sam N
+2022-02-27 21:04:18.8138|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Tim L
+2022-02-27 21:04:18.8138|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 21:04:18.8138|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Tim L
+2022-02-27 21:04:18.8138|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Ben B
+2022-02-27 21:04:18.8288|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Ben B
+2022-02-27 21:04:18.8288|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Sam N
+2022-02-27 21:04:18.8288|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Rob S
+2022-02-27 21:04:18.8288|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Todd
+2022-02-27 21:04:18.8288|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Chris W
+2022-02-27 21:04:18.8288|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Sam N
+2022-02-27 21:10:48.3583|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Gergana I
+2022-02-27 21:10:48.3786|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Dan W
+2022-02-27 21:10:48.3786|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Tim L
+2022-02-27 21:10:48.3786|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Rob S
+2022-02-27 21:10:48.3786|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Sarah T
+2022-02-27 21:10:48.3786|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Laura B
+2022-02-27 21:10:48.3786|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Tim L
+2022-02-27 21:10:48.3786|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Rob S
+2022-02-27 21:10:48.3786|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Jon A
+2022-02-27 21:10:48.3786|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Ben B
+2022-02-27 21:10:48.3786|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Todd
+2022-02-27 21:10:48.3786|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Chris W
+2022-02-27 21:10:48.3786|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Sarah T
+2022-02-27 21:10:48.3786|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Rob S
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Laura B
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Todd
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Chris W
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Chris W
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Sam N
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Stephen S
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Chris W
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Stephen S
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Sam N
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Sarah T
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Jon A
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Chris W
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Chris W
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Rob S
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Laura B
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Stephen S
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Dan W
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Stephen S
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Tim L
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Stephen S
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Chris W
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Todd
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Gergana I
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Sarah T
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Chris W
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Ben B
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Sarah T
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Tim L
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Jon A
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Jon A
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Chris W
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Dan W
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Dan W
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Ben B
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Dan W
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Tim L
+2022-02-27 21:10:48.3861|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Ben B
+2022-02-27 21:10:48.4021|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Dan W
+2022-02-27 21:10:48.4021|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Sarah T
+2022-02-27 21:10:48.4021|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Sam N
+2022-02-27 21:10:48.4021|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Chris W
+2022-02-27 21:10:48.4021|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Ben B
+2022-02-27 21:10:48.4021|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Ben B
+2022-02-27 21:10:48.4021|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Rob S
+2022-02-27 21:10:48.4021|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Dan W
+2022-02-27 21:10:48.4021|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Jon A
+2022-02-27 21:10:48.4021|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Gergana I
+2022-02-27 21:10:48.4021|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Ben B
+2022-02-27 21:10:48.4021|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Sarah T
+2022-02-27 21:10:48.4021|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Dan W
+2022-02-27 21:10:48.4021|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Jon A
+2022-02-27 21:10:48.4021|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Todd
+2022-02-27 21:10:48.4021|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 21:10:48.4021|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Jon A
+2022-02-27 21:10:48.4021|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Sarah T
+2022-02-27 21:10:48.4021|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Ben B
+2022-02-27 21:10:48.4021|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Laura B
+2022-02-27 21:10:48.4021|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Jon A
+2022-02-27 21:10:48.4021|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Chris W
+2022-02-27 21:10:48.4021|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Sam N
+2022-02-27 21:10:48.4021|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Rob S
+2022-02-27 21:10:48.4021|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Sarah T
+2022-02-27 21:10:48.4021|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 21:10:48.4021|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Gergana I
+2022-02-27 21:10:48.4173|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Stephen S
+2022-02-27 21:10:48.4173|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Stephen S
+2022-02-27 21:10:48.4173|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Tim L
+2022-02-27 21:10:48.4173|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Todd
+2022-02-27 21:10:48.4173|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Sam N
+2022-02-27 21:10:48.4173|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Todd
+2022-02-27 21:10:48.4173|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Tim L
+2022-02-27 21:10:48.4173|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Rob S
+2022-02-27 21:10:48.4173|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Stephen S
+2022-02-27 21:10:48.4173|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Chris W
+2022-02-27 21:10:48.4173|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Chris W
+2022-02-27 21:10:48.4173|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Ben B
+2022-02-27 21:10:48.4173|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Sam N
+2022-02-27 21:10:48.4173|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Laura B
+2022-02-27 21:10:48.4173|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Sam N
+2022-02-27 21:10:48.4173|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Rob S
+2022-02-27 21:10:48.4173|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Gergana I
+2022-02-27 21:10:48.4173|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Chris W
+2022-02-27 21:10:48.4173|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Laura B
+2022-02-27 21:10:48.4173|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Ben B
+2022-02-27 21:10:48.4173|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Tim L
+2022-02-27 21:10:48.4173|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Laura B
+2022-02-27 21:10:48.4173|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Ben B
+2022-02-27 21:10:48.4173|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Laura B
+2022-02-27 21:10:48.4173|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Laura B
+2022-02-27 21:10:48.4328|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Rob S
+2022-02-27 21:10:48.4328|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Gergana I
+2022-02-27 21:10:48.4328|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Dan W
+2022-02-27 21:10:48.4328|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Dan W
+2022-02-27 21:10:48.4328|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Sarah T
+2022-02-27 21:10:48.4328|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Tim L
+2022-02-27 21:10:48.4328|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Ben B
+2022-02-27 21:10:48.4328|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Laura B
+2022-02-27 21:10:48.4328|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Rob S
+2022-02-27 21:10:48.4328|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Chris W
+2022-02-27 21:10:48.4328|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Rob S
+2022-02-27 21:10:48.4328|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Jon A
+2022-02-27 21:10:48.4328|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Sarah T
+2022-02-27 21:10:48.4328|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Todd
+2022-02-27 21:10:48.4328|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Dan W
+2022-02-27 21:10:48.4328|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Rob S
+2022-02-27 21:10:48.4328|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Laura B
+2022-02-27 21:10:48.4328|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Rob S
+2022-02-27 21:10:48.4328|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Sarah T
+2022-02-27 21:10:48.4328|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Tim L
+2022-02-27 21:10:48.4328|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Sam N
+2022-02-27 21:10:48.4328|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Tim L
+2022-02-27 21:10:48.4328|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Dan W
+2022-02-27 21:10:48.4328|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Chris W
+2022-02-27 21:10:48.4328|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Sam N
+2022-02-27 21:10:48.4328|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Todd
+2022-02-27 21:10:48.4328|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Sam N
+2022-02-27 21:10:48.4328|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Sarah T
+2022-02-27 21:10:48.4328|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Todd
+2022-02-27 21:10:48.4328|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Sam N
+2022-02-27 21:10:48.4328|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Tim L
+2022-02-27 21:10:48.4328|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 21:10:48.4481|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Tim L
+2022-02-27 21:10:48.4481|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Ben B
+2022-02-27 21:10:48.4481|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Ben B
+2022-02-27 21:10:48.4481|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Sam N
+2022-02-27 21:10:48.4481|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Rob S
+2022-02-27 21:10:48.4481|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Todd
+2022-02-27 21:10:48.4481|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Chris W
+2022-02-27 21:10:48.4481|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Sam N
+2022-02-27 21:11:44.5953|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Gergana I
+2022-02-27 21:11:44.6159|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Dan W
+2022-02-27 21:11:44.6159|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Tim L
+2022-02-27 21:11:44.6159|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Rob S
+2022-02-27 21:11:44.6159|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Sarah T
+2022-02-27 21:11:44.6159|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Laura B
+2022-02-27 21:11:44.6159|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Tim L
+2022-02-27 21:11:44.6159|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Rob S
+2022-02-27 21:11:44.6159|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Jon A
+2022-02-27 21:11:44.6159|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Ben B
+2022-02-27 21:11:44.6159|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Todd
+2022-02-27 21:11:44.6159|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Chris W
+2022-02-27 21:11:44.6159|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Sarah T
+2022-02-27 21:11:44.6230|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Rob S
+2022-02-27 21:11:44.6230|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Laura B
+2022-02-27 21:11:44.6230|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Todd
+2022-02-27 21:11:44.6230|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Chris W
+2022-02-27 21:11:44.6230|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Chris W
+2022-02-27 21:11:44.6230|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Sam N
+2022-02-27 21:11:44.6230|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 21:11:44.6230|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Stephen S
+2022-02-27 21:11:44.6230|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Chris W
+2022-02-27 21:11:44.6230|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Stephen S
+2022-02-27 21:11:44.6230|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Sam N
+2022-02-27 21:11:44.6230|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Sarah T
+2022-02-27 21:11:44.6230|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Jon A
+2022-02-27 21:11:44.6230|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Chris W
+2022-02-27 21:11:44.6230|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Chris W
+2022-02-27 21:11:44.6230|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Rob S
+2022-02-27 21:11:44.6230|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Laura B
+2022-02-27 21:11:44.6230|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Stephen S
+2022-02-27 21:11:44.6230|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Dan W
+2022-02-27 21:11:44.6230|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Stephen S
+2022-02-27 21:11:44.6230|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Tim L
+2022-02-27 21:11:44.6230|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Stephen S
+2022-02-27 21:11:44.6230|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Chris W
+2022-02-27 21:11:44.6230|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Todd
+2022-02-27 21:11:44.6230|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Gergana I
+2022-02-27 21:11:44.6230|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Sarah T
+2022-02-27 21:11:44.6230|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Chris W
+2022-02-27 21:11:44.6230|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Ben B
+2022-02-27 21:11:44.6230|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Sarah T
+2022-02-27 21:11:44.6230|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Tim L
+2022-02-27 21:11:44.6230|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Jon A
+2022-02-27 21:11:44.6230|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Jon A
+2022-02-27 21:11:44.6230|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Chris W
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Dan W
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Dan W
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Ben B
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Dan W
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Tim L
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Ben B
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Dan W
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Sarah T
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Sam N
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Chris W
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Ben B
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Ben B
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Rob S
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Dan W
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Jon A
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Gergana I
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Ben B
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Sarah T
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Dan W
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Jon A
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Todd
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Jon A
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Sarah T
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Ben B
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Laura B
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Jon A
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Chris W
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Sam N
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Rob S
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Sarah T
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Gergana I
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Stephen S
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Stephen S
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Tim L
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Todd
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Sam N
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Todd
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Tim L
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Rob S
+2022-02-27 21:11:44.6369|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Stephen S
+2022-02-27 21:11:44.6520|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Chris W
+2022-02-27 21:11:44.6520|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Chris W
+2022-02-27 21:11:44.6520|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Ben B
+2022-02-27 21:11:44.6520|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Sam N
+2022-02-27 21:11:44.6520|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Laura B
+2022-02-27 21:11:44.6520|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Sam N
+2022-02-27 21:11:44.6520|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Rob S
+2022-02-27 21:11:44.6520|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Gergana I
+2022-02-27 21:11:44.6520|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Chris W
+2022-02-27 21:11:44.6520|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Laura B
+2022-02-27 21:11:44.6520|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Ben B
+2022-02-27 21:11:44.6520|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Tim L
+2022-02-27 21:11:44.6520|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Laura B
+2022-02-27 21:11:44.6520|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Ben B
+2022-02-27 21:11:44.6520|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Laura B
+2022-02-27 21:11:44.6520|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Laura B
+2022-02-27 21:11:44.6520|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Rob S
+2022-02-27 21:11:44.6520|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Gergana I
+2022-02-27 21:11:44.6520|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Dan W
+2022-02-27 21:11:44.6520|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Dan W
+2022-02-27 21:11:44.6520|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Sarah T
+2022-02-27 21:11:44.6520|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Tim L
+2022-02-27 21:11:44.6520|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Ben B
+2022-02-27 21:11:44.6520|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Laura B
+2022-02-27 21:11:44.6520|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Rob S
+2022-02-27 21:11:44.6520|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Chris W
+2022-02-27 21:11:44.6520|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Rob S
+2022-02-27 21:11:44.6520|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Jon A
+2022-02-27 21:11:44.6520|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Sarah T
+2022-02-27 21:11:44.6520|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Todd
+2022-02-27 21:11:44.6520|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Dan W
+2022-02-27 21:11:44.6520|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Rob S
+2022-02-27 21:11:44.6520|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Laura B
+2022-02-27 21:11:44.6679|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Rob S
+2022-02-27 21:11:44.6679|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Sarah T
+2022-02-27 21:11:44.6679|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Tim L
+2022-02-27 21:11:44.6679|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Sam N
+2022-02-27 21:11:44.6679|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Tim L
+2022-02-27 21:11:44.6679|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Dan W
+2022-02-27 21:11:44.6679|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Chris W
+2022-02-27 21:11:44.6679|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Sam N
+2022-02-27 21:11:44.6679|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Todd
+2022-02-27 21:11:44.6679|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Sam N
+2022-02-27 21:11:44.6679|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Sarah T
+2022-02-27 21:11:44.6679|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Todd
+2022-02-27 21:11:44.6679|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Sam N
+2022-02-27 21:11:44.6679|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Tim L
+2022-02-27 21:11:44.6679|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 21:11:44.6679|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Tim L
+2022-02-27 21:11:44.6679|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Ben B
+2022-02-27 21:11:44.6679|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Ben B
+2022-02-27 21:11:44.6679|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Sam N
+2022-02-27 21:11:44.6679|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Rob S
+2022-02-27 21:11:44.6679|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Todd
+2022-02-27 21:11:44.6679|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Chris W
+2022-02-27 21:11:44.6679|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Sam N
+2022-02-27 21:12:55.7466|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Gergana I
+2022-02-27 21:12:55.7670|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Dan W
+2022-02-27 21:12:55.7670|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Tim L
+2022-02-27 21:12:55.7670|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Rob S
+2022-02-27 21:12:55.7670|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Sarah T
+2022-02-27 21:12:55.7670|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Laura B
+2022-02-27 21:12:55.7670|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Tim L
+2022-02-27 21:12:55.7670|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Rob S
+2022-02-27 21:12:55.7670|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Jon A
+2022-02-27 21:12:55.7670|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Ben B
+2022-02-27 21:12:55.7670|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Todd
+2022-02-27 21:12:55.7670|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Chris W
+2022-02-27 21:12:55.7670|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Sarah T
+2022-02-27 21:12:55.7670|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Rob S
+2022-02-27 21:12:55.7670|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Laura B
+2022-02-27 21:12:55.7670|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Todd
+2022-02-27 21:12:55.7670|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Chris W
+2022-02-27 21:12:55.7670|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Chris W
+2022-02-27 21:12:55.7670|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Sam N
+2022-02-27 21:12:55.7670|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 21:12:55.7670|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Stephen S
+2022-02-27 21:12:55.7670|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Chris W
+2022-02-27 21:12:55.7670|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Stephen S
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Sam N
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Sarah T
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Jon A
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Chris W
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Chris W
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Rob S
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Laura B
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Stephen S
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Dan W
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Stephen S
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Tim L
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Stephen S
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Chris W
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Todd
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Gergana I
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Sarah T
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Chris W
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Ben B
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Sarah T
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Tim L
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Jon A
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Jon A
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Chris W
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Dan W
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Dan W
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Ben B
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Dan W
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Tim L
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Ben B
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Dan W
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Sarah T
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Sam N
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Chris W
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Ben B
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Ben B
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Rob S
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Dan W
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Jon A
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Gergana I
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Ben B
+2022-02-27 21:12:55.7781|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Sarah T
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Dan W
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Jon A
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Todd
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Jon A
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Sarah T
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Ben B
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Laura B
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Jon A
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Chris W
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Sam N
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Rob S
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Sarah T
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Gergana I
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Stephen S
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Stephen S
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Tim L
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Todd
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Sam N
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Todd
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Tim L
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Rob S
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Stephen S
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Chris W
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Chris W
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Ben B
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Sam N
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Laura B
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Sam N
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Rob S
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Gergana I
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Chris W
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Laura B
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Ben B
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Tim L
+2022-02-27 21:12:55.7940|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Laura B
+2022-02-27 21:12:55.8092|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Ben B
+2022-02-27 21:12:55.8092|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Laura B
+2022-02-27 21:12:55.8092|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Laura B
+2022-02-27 21:12:55.8092|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Rob S
+2022-02-27 21:12:55.8092|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Gergana I
+2022-02-27 21:12:55.8092|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Dan W
+2022-02-27 21:12:55.8092|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Dan W
+2022-02-27 21:12:55.8092|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Sarah T
+2022-02-27 21:12:55.8092|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Tim L
+2022-02-27 21:12:55.8092|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Ben B
+2022-02-27 21:12:55.8092|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Laura B
+2022-02-27 21:12:55.8092|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Rob S
+2022-02-27 21:12:55.8092|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Chris W
+2022-02-27 21:12:55.8092|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Rob S
+2022-02-27 21:12:55.8092|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Jon A
+2022-02-27 21:12:55.8092|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Sarah T
+2022-02-27 21:12:55.8092|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Todd
+2022-02-27 21:12:55.8092|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Dan W
+2022-02-27 21:12:55.8092|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Rob S
+2022-02-27 21:12:55.8092|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Laura B
+2022-02-27 21:12:55.8092|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Rob S
+2022-02-27 21:12:55.8092|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Sarah T
+2022-02-27 21:12:55.8092|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Tim L
+2022-02-27 21:12:55.8092|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Sam N
+2022-02-27 21:12:55.8092|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Tim L
+2022-02-27 21:12:55.8092|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Dan W
+2022-02-27 21:12:55.8092|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Chris W
+2022-02-27 21:12:55.8092|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Sam N
+2022-02-27 21:12:55.8092|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Todd
+2022-02-27 21:12:55.8092|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Sam N
+2022-02-27 21:12:55.8092|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Sarah T
+2022-02-27 21:12:55.8092|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Todd
+2022-02-27 21:12:55.8092|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Sam N
+2022-02-27 21:12:55.8092|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Tim L
+2022-02-27 21:12:55.8251|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 21:12:55.8251|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Tim L
+2022-02-27 21:12:55.8251|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Ben B
+2022-02-27 21:12:55.8251|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Ben B
+2022-02-27 21:12:55.8251|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Sam N
+2022-02-27 21:12:55.8251|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Rob S
+2022-02-27 21:12:55.8251|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Todd
+2022-02-27 21:12:55.8251|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Chris W
+2022-02-27 21:12:55.8251|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Sam N
+2022-02-27 21:15:05.5044|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Gergana I
+2022-02-27 21:15:05.5245|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Dan W
+2022-02-27 21:15:05.5245|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Tim L
+2022-02-27 21:15:05.5245|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Rob S
+2022-02-27 21:15:05.5245|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Sarah T
+2022-02-27 21:15:05.5245|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Laura B
+2022-02-27 21:15:05.5245|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Tim L
+2022-02-27 21:15:05.5245|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Rob S
+2022-02-27 21:15:05.5245|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Jon A
+2022-02-27 21:15:05.5245|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Ben B
+2022-02-27 21:15:05.5245|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Todd
+2022-02-27 21:15:05.5245|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Chris W
+2022-02-27 21:15:05.5245|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Sarah T
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Rob S
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Laura B
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Todd
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Chris W
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Chris W
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Sam N
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Stephen S
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Chris W
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Stephen S
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Sam N
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Sarah T
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Jon A
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Chris W
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Chris W
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Rob S
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Laura B
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Stephen S
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Dan W
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Stephen S
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Tim L
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Stephen S
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Chris W
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Todd
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Gergana I
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Sarah T
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Chris W
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Ben B
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Sarah T
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Tim L
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Jon A
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Jon A
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Chris W
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Dan W
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Dan W
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Ben B
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Dan W
+2022-02-27 21:15:05.5318|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Tim L
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Ben B
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Dan W
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Sarah T
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Sam N
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Chris W
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Ben B
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Ben B
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Rob S
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Dan W
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Jon A
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Gergana I
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Ben B
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Sarah T
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Dan W
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Jon A
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Todd
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Jon A
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Sarah T
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Ben B
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Laura B
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Jon A
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Chris W
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Sam N
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Rob S
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Sarah T
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Gergana I
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Stephen S
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Stephen S
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Tim L
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Todd
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Sam N
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Todd
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Tim L
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Rob S
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Stephen S
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Chris W
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Chris W
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Ben B
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Sam N
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Laura B
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Sam N
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Rob S
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Gergana I
+2022-02-27 21:15:05.5452|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Chris W
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Laura B
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Ben B
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Tim L
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Laura B
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Ben B
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Laura B
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Laura B
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Rob S
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Gergana I
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Dan W
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Dan W
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Sarah T
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Tim L
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Ben B
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Laura B
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Rob S
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Chris W
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Rob S
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Jon A
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Sarah T
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Todd
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Dan W
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Rob S
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Laura B
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Rob S
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Sarah T
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Tim L
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Sam N
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Tim L
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Dan W
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Chris W
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Sam N
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Todd
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Sam N
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Sarah T
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Todd
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Sam N
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Tim L
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Tim L
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Ben B
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Ben B
+2022-02-27 21:15:05.5601|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Sam N
+2022-02-27 21:15:05.5765|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Rob S
+2022-02-27 21:15:05.5765|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Todd
+2022-02-27 21:15:05.5765|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Chris W
+2022-02-27 21:15:05.5765|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Sam N
+2022-02-27 21:33:36.8494|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Gergana I
+2022-02-27 21:33:36.8706|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Dan W
+2022-02-27 21:33:36.8706|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Tim L
+2022-02-27 21:33:36.8706|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Rob S
+2022-02-27 21:33:36.8706|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Sarah T
+2022-02-27 21:33:36.8706|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Laura B
+2022-02-27 21:33:36.8706|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Tim L
+2022-02-27 21:33:36.8706|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Rob S
+2022-02-27 21:33:36.8706|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Jon A
+2022-02-27 21:33:36.8732|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Ben B
+2022-02-27 21:33:36.8732|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Todd
+2022-02-27 21:33:36.8732|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Chris W
+2022-02-27 21:33:36.8732|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Sarah T
+2022-02-27 21:33:36.8732|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Rob S
+2022-02-27 21:33:36.8732|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Laura B
+2022-02-27 21:33:36.8732|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Todd
+2022-02-27 21:33:36.8732|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Chris W
+2022-02-27 21:33:36.8732|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Chris W
+2022-02-27 21:33:36.8732|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Sam N
+2022-02-27 21:33:36.8732|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 21:33:36.8732|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Stephen S
+2022-02-27 21:33:36.8732|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Chris W
+2022-02-27 21:33:36.8732|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Stephen S
+2022-02-27 21:33:36.8732|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Sam N
+2022-02-27 21:33:36.8732|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Sarah T
+2022-02-27 21:33:36.8732|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Jon A
+2022-02-27 21:33:36.8732|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Chris W
+2022-02-27 21:33:36.8732|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Chris W
+2022-02-27 21:33:36.8732|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Rob S
+2022-02-27 21:33:36.8732|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Laura B
+2022-02-27 21:33:36.8732|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Stephen S
+2022-02-27 21:33:36.8732|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Dan W
+2022-02-27 21:33:36.8732|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Stephen S
+2022-02-27 21:33:36.8732|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Tim L
+2022-02-27 21:33:36.8732|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Stephen S
+2022-02-27 21:33:36.8732|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Chris W
+2022-02-27 21:33:36.8732|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Todd
+2022-02-27 21:33:36.8732|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Gergana I
+2022-02-27 21:33:36.8891|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Sarah T
+2022-02-27 21:33:36.8891|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Chris W
+2022-02-27 21:33:36.8891|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Ben B
+2022-02-27 21:33:36.8891|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Sarah T
+2022-02-27 21:33:36.8891|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Tim L
+2022-02-27 21:33:36.8891|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Jon A
+2022-02-27 21:33:36.8891|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Jon A
+2022-02-27 21:33:36.8891|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Chris W
+2022-02-27 21:33:36.8891|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Dan W
+2022-02-27 21:33:36.8891|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Dan W
+2022-02-27 21:33:36.8891|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Ben B
+2022-02-27 21:33:36.8891|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Dan W
+2022-02-27 21:33:36.8891|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 21:33:36.8891|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Tim L
+2022-02-27 21:33:36.8891|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Ben B
+2022-02-27 21:33:36.8891|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Dan W
+2022-02-27 21:33:36.8891|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Sarah T
+2022-02-27 21:33:36.8891|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Sam N
+2022-02-27 21:33:36.8891|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Chris W
+2022-02-27 21:33:36.8891|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Ben B
+2022-02-27 21:33:36.8891|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Ben B
+2022-02-27 21:33:36.8891|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Rob S
+2022-02-27 21:33:36.8891|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Dan W
+2022-02-27 21:33:36.8891|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Jon A
+2022-02-27 21:33:36.8891|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Gergana I
+2022-02-27 21:33:36.8891|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Ben B
+2022-02-27 21:33:36.8891|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Sarah T
+2022-02-27 21:33:36.8891|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Dan W
+2022-02-27 21:33:36.8891|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Jon A
+2022-02-27 21:33:36.8891|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Todd
+2022-02-27 21:33:36.8891|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 21:33:36.8891|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Jon A
+2022-02-27 21:33:36.8891|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Sarah T
+2022-02-27 21:33:36.9053|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Ben B
+2022-02-27 21:33:36.9053|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Laura B
+2022-02-27 21:33:36.9053|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Jon A
+2022-02-27 21:33:36.9053|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Chris W
+2022-02-27 21:33:36.9053|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Sam N
+2022-02-27 21:33:36.9053|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Rob S
+2022-02-27 21:33:36.9053|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Sarah T
+2022-02-27 21:33:36.9053|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 21:33:36.9053|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Gergana I
+2022-02-27 21:33:36.9053|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Stephen S
+2022-02-27 21:33:36.9053|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Stephen S
+2022-02-27 21:33:36.9053|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Tim L
+2022-02-27 21:33:36.9053|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Todd
+2022-02-27 21:33:36.9053|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Sam N
+2022-02-27 21:33:36.9053|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Todd
+2022-02-27 21:33:36.9053|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Tim L
+2022-02-27 21:33:36.9053|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Rob S
+2022-02-27 21:33:36.9053|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Stephen S
+2022-02-27 21:33:36.9053|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Chris W
+2022-02-27 21:33:36.9053|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Chris W
+2022-02-27 21:33:36.9053|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Ben B
+2022-02-27 21:33:36.9053|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Sam N
+2022-02-27 21:33:36.9053|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Laura B
+2022-02-27 21:33:36.9053|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Sam N
+2022-02-27 21:33:36.9053|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Rob S
+2022-02-27 21:33:36.9053|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Gergana I
+2022-02-27 21:33:36.9053|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Chris W
+2022-02-27 21:33:36.9053|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Laura B
+2022-02-27 21:33:36.9053|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Ben B
+2022-02-27 21:33:36.9053|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Tim L
+2022-02-27 21:33:36.9053|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Laura B
+2022-02-27 21:33:36.9053|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Ben B
+2022-02-27 21:33:36.9203|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Laura B
+2022-02-27 21:33:36.9203|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Laura B
+2022-02-27 21:33:36.9203|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Rob S
+2022-02-27 21:33:36.9203|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Gergana I
+2022-02-27 21:33:36.9203|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Dan W
+2022-02-27 21:33:36.9203|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Dan W
+2022-02-27 21:33:36.9203|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Sarah T
+2022-02-27 21:33:36.9203|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Tim L
+2022-02-27 21:33:36.9203|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Ben B
+2022-02-27 21:33:36.9203|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Laura B
+2022-02-27 21:33:36.9203|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Rob S
+2022-02-27 21:33:36.9203|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Chris W
+2022-02-27 21:33:36.9203|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Rob S
+2022-02-27 21:33:36.9203|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Jon A
+2022-02-27 21:33:36.9203|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Sarah T
+2022-02-27 21:33:36.9203|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Todd
+2022-02-27 21:33:36.9203|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Dan W
+2022-02-27 21:33:36.9203|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Dan W, ToName = Rob S
+2022-02-27 21:33:36.9203|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Laura B
+2022-02-27 21:33:36.9203|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Rob S
+2022-02-27 21:33:36.9203|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Sarah T
+2022-02-27 21:33:36.9203|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Tim L
+2022-02-27 21:33:36.9203|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Sam N
+2022-02-27 21:33:36.9203|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Tim L
+2022-02-27 21:33:36.9203|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Dan W
+2022-02-27 21:33:36.9203|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Chris W
+2022-02-27 21:33:36.9203|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Tim L, ToName = Sam N
+2022-02-27 21:33:36.9366|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Todd
+2022-02-27 21:33:36.9366|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Sam N
+2022-02-27 21:33:36.9366|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sam N, ToName = Sarah T
+2022-02-27 21:33:36.9366|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Todd
+2022-02-27 21:33:36.9366|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Sam N
+2022-02-27 21:33:36.9366|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Laura B, ToName = Tim L
+2022-02-27 21:33:36.9366|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Chris W, ToName = Tim L
+2022-02-27 21:33:36.9366|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Tim L
+2022-02-27 21:33:36.9366|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Sarah T, ToName = Ben B
+2022-02-27 21:33:36.9366|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Todd, ToName = Ben B
+2022-02-27 21:33:36.9366|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Gergana I, ToName = Sam N
+2022-02-27 21:33:36.9366|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Ben B, ToName = Rob S
+2022-02-27 21:33:36.9366|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Stephen S, ToName = Todd
+2022-02-27 21:33:36.9366|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Jon A, ToName = Chris W
+2022-02-27 21:33:36.9366|INFO|SupportBank.Bank|input= Sam N, Transaction FromName = Rob S, ToName = Sam N

@@ -18,13 +18,6 @@ namespace SupportBank
             Narrative = narrative;
             Amount = amount;
         }
-        public Transaction ConvertJsonTransaction()
-        {
-            Account from = new Account(FromAccount);
-            Account to = new Account(ToAccount);
-            Transaction transactionFromJson = new Transaction(DateTime.Parse(Date), from, to, Narrative, Amount);
-            return transactionFromJson;
-        }
     }
 }
 

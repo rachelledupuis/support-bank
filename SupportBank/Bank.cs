@@ -39,8 +39,6 @@ namespace SupportBank
         {
             Transactions = new List<Transaction>();
         }
-
-
         public void PrintAllTransactions(string name)
         {
             try 
@@ -57,11 +55,11 @@ namespace SupportBank
                     }
                     if (transaction.FromAccount.Name == name)
                     {
-                        Console.WriteLine($"{transaction.Date.ToString("dd/MM/yyyy")}: £{transaction.Amount} owed to {transaction.ToAccount.Name} for {transaction.Narrative}");
+                        Console.WriteLine($"{transaction.Date.ToString("dd/MM/yyyy")}: £{transaction.Amount} paid to {transaction.ToAccount.Name} for {transaction.Narrative}");
                     }
                     if (transaction.ToAccount.Name == name)
                     {
-                        Console.WriteLine($"{transaction.Date.ToString("dd/MM/yyyy")}: £{transaction.Amount} owed by {transaction.FromAccount.Name} for {transaction.Narrative}");
+                        Console.WriteLine($"{transaction.Date.ToString("dd/MM/yyyy")}: £{transaction.Amount} received from {transaction.FromAccount.Name} for {transaction.Narrative}");
                     }
                 }
             }

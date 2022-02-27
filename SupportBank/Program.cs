@@ -11,9 +11,7 @@ namespace SupportBank
             var config = new NLog.Config.LoggingConfiguration();
 
             // Targets where to log to: File and Console
-            string logPath = @"C:\Training\support-bank\SupportBank\log.log";
-            
-            var logfile = new NLog.Targets.FileTarget("logfile") { FileName = logPath };
+            var logfile = new NLog.Targets.FileTarget("logfile") { FileName = @"C:\Training\support-bank\SupportBank\log.log" };
             var logconsole = new NLog.Targets.ConsoleTarget("logconsole");
                         
             // Rules for mapping loggers to targets            
