@@ -1,6 +1,6 @@
 using System;
 using System.IO;
-using System.Text.Json;
+using Newtonsoft.Json;
 
 namespace SupportBank
 {
@@ -14,41 +14,34 @@ namespace SupportBank
             
             try
             {
-                // Create an instance of StreamReader to read from a file.
-                // The using statement also closes the StreamReader.
-                //using (StreamReader r = new StreamReader(filePath))
+                using (StreamReader r = new StreamReader(filePath))
                 {
-                    //string json = r.ReadToEnd();
-                    //List<Item> items = JsonConvert.DeserializeObject<List<Item>>(json);
-                    string jsonString = File.ReadAllText(filePath);
-                    var lines = JsonSerializer.Deserialize<List<Transaction>>(jsonString);
-                    //dynamic array = JsonConvert.DeserializeObject(json);
-                    //Transaction myDeserializedClass = JsonConvert.DeserializeObject(myJsonResponse); 
+                    string json = r.ReadToEnd();
+                    dynamic array = JsonConvert.DeserializeObject<List<TransactionJsonFile>>(json); 
                     
-                    //Transaction transaction = JsonSerializer.Deserialize<Transaction>(jsonString)!;
-                    foreach(var transaction in lines)
+                    foreach(var transaction in array)
                     {
-                        if (!holders.Any(holder => holder.Name == transaction.FromAccount.Name))
+                        if (!holders.Any(holder => holder.Name == transaction.FromAccount))
                         {
-                            holders.Add(new Account(transaction.FromAccount.Name));
+                            holders.Add(new Account(transaction.FromAccount));
                         }
                         
-                        if (!holders.Any(holder => holder.Name == transaction.ToAccount.Name))
+                        if (!holders.Any(holder => holder.Name == transaction.ToAccount))
                         {
-                            holders.Add(new Account(transaction.ToAccount.Name));
+                            holders.Add(new Account(transaction.ToAccount));
                         }
 
-                        Account from = holders.Find(account => account.Name == transaction.FromAccount.Name);
-                        Account to = holders.Find(account => account.Name == transaction.ToAccount.Name);
+                        //Account from = holders.Find(account => account.Name == transaction.FromAccount);
+                        //Account to = holders.Find(account => account.Name == transaction.ToAccount);
 
                         try {
-                            bank.Transactions.Add(new Transaction(
-                            transaction.Date, 
-                            transaction.FromAccount, 
-                            transaction.ToAccount, 
-                            transaction.Narrative, 
-                            transaction.Amount
-                            ));  
+                           bank.Transactions.Add(new TransactionJsonFile(
+                                transaction.Date, 
+                                transaction.FromAccount, 
+                                transaction.ToAccount, 
+                                transaction.Narrative, 
+                                transaction.Amount
+                                ).ConvertJsonTransaction());
                         }
                         catch (FormatException)
                         {

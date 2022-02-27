@@ -26,8 +26,6 @@ namespace SupportBank
                     int lineNo = 2;
                     while ((line = sr.ReadLine()) != null)
                     {
-                        
-                        //Logger.Info($"Line no: {lineNo}: {line}");
                         var values = line.Split(',');
 
                         if (!holders.Any(holder => holder.Name == values[1]))
